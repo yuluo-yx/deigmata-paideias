@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ubuntu:
+    container_name: ubuntu
+    image: ubuntu
+    restart: on-failure
+    command: [ "sleep", "infinity" ]
+    ports:
+      - 829:22

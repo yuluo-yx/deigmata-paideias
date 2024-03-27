@@ -1,0 +1,17 @@
+version: '3'
+
+# 除了80端口是浏览器访问的，其他的端口都是容器所在的内部网络开放
+# 不用映射其他端口出来，如果需要外部访问数据库的话，可以把27017映射到主机的其他端口上面来
+services:
+  nacos-server:
+    image: nacos/nacos-server
+    container_name: nacos-server
+    restart: always
+    environment:
+      - PREFER_HOST_MODE=hostname
+      - MODE=standalone
+    volumes:
+      - ./logs/:/home/nacos/logs
+      - ./custom.properties:/home/nacos/init.d/custom.properties
+    ports:
+      - 8848:8848

@@ -1,0 +1,14 @@
+admin:
+  address:
+    socket_address: { address: 0.0.0.0, port_value: 9901 }
+node:
+  # envoy 节点名字
+  cluster: mynode
+  # envoy 节点的唯一标识
+  id: node01
+dynamic_resources:
+  cds_config:
+    path: /etc/envoy/cds.yaml
+  lds_config:
+    path: /etc/envoy/lds.yaml
+    

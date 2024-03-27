@@ -1,0 +1,23 @@
+version: '3'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: npm
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 81:81
+      - 443:443
+    volumes:
+      # $PWD 环境变量  .开头
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    extra_hosts:
+      - host.docker.internal:host-gateway # 这个只有容器需要访问宿主机的时候才需要，宿主机在容器内的地址就是host.docker.internal
+    networks:
+      - nginx
+
+networks:
+  nginx:
+    external: true
+

@@ -1,0 +1,21 @@
+system:
+  application:
+    port: :8080
+    model: debug
+    name: api-registry
+    log-level: debug
+    console-log: true
+    log-file-path: ./api-registry.log
+
+  redis:
+    host: 192.168.31.67
+    port: 6379
+    password: root
+    db: 0
+
+  mysql:
+    host: 192.168.31.67
+    port: 3306
+    user: root
+    password: root
+    databases: deamgo_test

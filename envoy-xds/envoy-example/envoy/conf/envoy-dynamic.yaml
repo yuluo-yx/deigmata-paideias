@@ -1,0 +1,50 @@
+admin:
+  access_log_path: /tmp/admin_access.log
+  address:
+    socket_address: { address: 0.0.0.0, port_value: 9901 }
+
+node:
+  # 节点名称
+  cluster: xds_test_node
+  # 唯一标识， 服务发现时通过唯一标识去识别节点
+  id: test_1
+
+dynamic_resources:
+  cds_config:
+    # 使用的资源版本号
+    resource_api_version: V3
+    api_config_source:
+      # 连接类型
+      api_type: GRPC
+      transport_api_version: V3
+      refresh_delay: 5s
+      # grpc 地址
+      grpc_services:
+        - envoy_grpc:
+            cluster_name: grpc_xds_cluster
+
+  lds_config:
+    resource_api_version: V3
+    api_config_source:
+      api_type: GRPC
+      transport_api_version: V3
+      grpc_services:
+        - envoy_grpc:
+            cluster_name: grpc_xds_cluster
+
+# 通过静态配置一个 xds_cluster 服务用于做控制面
+static_resources:
+  clusters:
+    - connect_timeout: 1s
+      load_assignment:
+        cluster_name: grpc_xds_cluster
+        endpoints:
+          - lb_endpoints:
+              - endpoint:
+                  address:
+                    socket_address:
+                      # control-plane xds 控制面服务地址
+                      address: 192.168.2.17
+                      port_value: 9090
+      http2_protocol_options: {}
+      name: grpc_xds_cluster

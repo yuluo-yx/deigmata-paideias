@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+
+  nginx:
+    image: nginx:1.19.0-alpine
+    container_name: apisix-front-nginx
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/html:/usr/share/nginx/html
+      - ./nginx/logs:/var/log/nginx
+    ports:
+      - "80:80"

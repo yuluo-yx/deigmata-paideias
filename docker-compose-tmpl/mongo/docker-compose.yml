@@ -1,0 +1,21 @@
+version: "3.3" # 根据自己的docker-compose 版本进行配置
+services:
+
+  mongo:
+    image: mongo:latest #根据需要选择自己的镜像
+    restart: always
+    container_name: mongo
+    ports:
+      - 27017:27017 #对外暴露停供服务的端口，正式生产的时候理论不用暴露。
+    volumes:
+      - ./data:/data/db # 前面是外面映射的，后面是容器内的挂载数据目录
+      - ./log:/data/log # 挂载日志目录
+      - ./conf:/etc/mongo # 挂载配置目录
+      - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh # 初始化脚本
+    environment:
+      TZ: Asia/Shanghai
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_DATABASE: test
+      MONGO_USERNAME: test
+      MONGO_PASSWORD: test

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>indi.yuluo.xds</groupId>
+	<artifactId>java-xds-impl</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<annotation-api.version>1.3.2</annotation-api.version>
+		<assertj.version>3.12.2</assertj.version>
+		<auto-value.version>1.6.3</auto-value.version>
+		<awaitility.version>3.1.6</awaitility.version>
+		<grpc.version>1.48.1</grpc.version>
+		<junit.version>4.13.2</junit.version>
+		<protobuf.version>3.21.5</protobuf.version><!-- Keep the Protobuf version in sync with grpc-java -->
+		<rest-assured.version>3.1.0</rest-assured.version>
+		<slf4j.version>1.7.26</slf4j.version>
+		<testcontainers.version>1.17.1</testcontainers.version>
+		<envoy.version>1.0.41</envoy.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.envoyproxy.controlplane</groupId>
+			<artifactId>cache</artifactId>
+			<version>${envoy.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.envoyproxy.controlplane</groupId>
+			<artifactId>api</artifactId>
+			<version>${envoy.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-netty</artifactId>
+			<version>${grpc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-testing</artifactId>
+			<version>${grpc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.envoyproxy.controlplane</groupId>
+			<artifactId>server</artifactId>
+			<version>${envoy.version}</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

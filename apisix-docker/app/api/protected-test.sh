@@ -1,0 +1,1 @@
+curl -i http://127.0.0.1:9180/apisix/admin/routes/1 -H 'X-API-KEY: 054f7cf07e344346cd3f287985e76a21' -X PUT -d '{"uri": "/api/test","plugins": {"limit-count": {"count": 2, "time_window": 60,"rejected_code": 503,"key_type": "var","key": "remote_addr"}},"upstream": {"type": "roundrobin","nodes": {"192.168.2.27:8080": 1}}}'

@@ -1,0 +1,57 @@
+version: '3.8'
+services:
+
+  envoy:
+    image: envoyproxy/envoy:v1.29-latest
+    container_name: envoy
+    env_file:
+      - .env
+    volumes:
+      # 单个代理配置
+      # - ./envoy/conf/envoy-standalone.yaml:/etc/envoy/envoy.yaml
+      # 代理百度
+      # - ./envoy/conf/envoy-proxy-baidu.yaml:/etc/envoy/envoy.yaml
+      # 代理多个应用，集群代理
+      # - ./envoy/conf/envoy-cluster.yaml:/etc/envoy/envoy.yaml
+      # xds 动态代理
+      - ./envoy/conf/envoy-dynamic.yaml:/etc/envoy/envoy.yaml
+      # 通过文件的形式设置代理
+      # - ./envoy/files/envoy.yaml:/etc/envoy/envoy.yaml
+      # - ./envoy/files/cds.yaml:/etc/envoy/cds.yaml
+      # - ./envoy/files/lds.yaml:/etc/envoy/lds.yaml
+    networks:
+      - envoyproxy
+    ports:
+      - ${ENVOY_PORT}:${INNER_ENVOY_PORT}
+      - ${ENVOY_ADMIN_PORT}:${INNER_ENVOY_ADMIN_PORT}
+
+  nginx-app-1:
+    image: nginx:latest
+    container_name: nginx-app-1
+    env_file:
+      - .env
+    volumes:
+      - ./app/nginx-app-1/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./app/nginx-app-1/html:/usr/share/nginx/html
+    networks:
+      - envoyproxy
+    ports:
+      - ${NGINX_APP_PORT_1}:${INNER_NGINX_PORT_1}
+
+  nginx-app-2:
+    image: nginx:latest
+    container_name: nginx-app-2
+    env_file:
+      - .env
+    volumes:
+      - ./app/nginx-app-2/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./app/nginx-app-2/html:/usr/share/nginx/html
+    networks:
+      - envoyproxy
+    ports:
+      - ${NGINX_APP_PORT_2}:${INNER_NGINX_PORT_2}
+
+networks:
+  envoyproxy:
+    external: false
+  
