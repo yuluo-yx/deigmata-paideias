@@ -1,0 +1,13 @@
+FROM openjdk:17-jdk-alpine
+
+MAINTAINER yuluo yuluo829@aliyun.com
+
+ARG APP_HOME
+
+# 在.env的配置文件中
+VOLUME /app/gpt-api-server
+
+WORKDIR /app/gpt-api-server
+
+# 配置需要加载的配置文件和启动jar包的命令
+ENTRYPOINT ["java", "-jar", "./gpt-api-server.jar", "--spring.profiles.active=docker"]

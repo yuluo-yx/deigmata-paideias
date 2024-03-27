@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  gpt-api-server:
+    image: gpt-api-server
+    build:
+      dockerfile: ./app/DockerFile
+      context: .
+      args:
+        APP_HOME: /app/gpt-api-server
+    volumes:
+      - ./app/gpt-api:/app/gpt-api-server
+    container_name: gpt-api-server
+    environment:
+      - SERVER_PORT=9876
+    ports:
+      - "9876:9876"

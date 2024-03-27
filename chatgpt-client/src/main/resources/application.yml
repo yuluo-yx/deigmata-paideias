@@ -1,0 +1,13 @@
+server:
+  port: 9876
+
+spring:
+  application:
+    name: gpt_api_server
+
+  gpt:
+    service:
+      # 配置代理地址
+      proxy-address: 127.0.0.1
+      # 配置 apikey (此 key 不可用)
+      api-key: sk-LQz9IvI5tK9g9dvdDHMZT3BlbkFJb9p0mKOe8eBUrRUdN8789

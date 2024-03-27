@@ -1,0 +1,12 @@
+{
+    "registry-mirrors": [
+    "https://reg-mirror.qiniu.com",
+    "https://gcr-mirror.qiniu.com",
+    "https://quay-mirror.qiniu.com",
+    "https://hub-mirror.c.163.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://gcr.mirrors.ustc.edu.cn",
+    "https://quay.mirrors.ustc.edu.cn",,
+    "https://registry.docker-cn.com"
+    ]
+}
