@@ -1,0 +1,11 @@
+
+# kubectl alias
+alias kcf="kubectl create -f"
+alias kc="kubectl create"
+alias kgpa="kubectl get pods -A"
+alias kg="kubectl get"
+alias k="kubectl"
+alias kd="kubectl describe pods"
+alias ke="kubectl explain"
+alias kaf="kubectl apply -f"
+alias ka="kubectl apply"

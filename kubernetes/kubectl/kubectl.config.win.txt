@@ -1,0 +1,13 @@
+# 确保存在如下的 powershell 配置
+# notepad $PROFILE
+
+# 加入以下配置
+function kcf { kubectl create -f }
+function kc { kubectl create }
+function kgpa {kubectl get pods -A}
+function kg {kubectl  get}
+function k { kubectl }
+function kd { kubectl describe pods }
+function ke { kubectl explain }
+function kaf { kubectl apply -f }
+function ka { kubectl apply }
