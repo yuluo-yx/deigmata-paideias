@@ -1,14 +1,14 @@
 [core]
         autocrlf = input
         compression = 0
-	longpaths = true
+        longpaths = true
 [user]
-        name = yuluo
-        email = yuluo08290216@gmail.com
+        name = yuluo-yx
+        email = yuluo08290126@gmail.com
 [http]
-	proxy = http://127.0.0.1:7890
+    	proxy = http://127.0.0.1:7890
 [https]
-	proxy = http://127.0.0.1:7890
+	    proxy = http://127.0.0.1:7890
 [alias]
         br = branch
         c  = commit -s
@@ -23,3 +23,7 @@
         process = git-lfs filter-process
         required = true
         clean = git-lfs clean -- %f
+
+[credential]
+    	helper = store
+
