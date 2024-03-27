@@ -1,0 +1,320 @@
+// Generated documentation. Please do not edit.
+:anchor_prefix: k8s-api
+
+[id="{p}-api-reference"]
+== API Reference
+
+.Packages
+- xref:{anchor_prefix}-webapp-test-k8s-elastic-co-common[$$webapp.test.k8s.elastic.co/common$$]
+- xref:{anchor_prefix}-webapp-test-k8s-elastic-co-v1[$$webapp.test.k8s.elastic.co/v1$$]
+
+
+[id="{anchor_prefix}-webapp-test-k8s-elastic-co-common"]
+=== webapp.test.k8s.elastic.co/common
+
+Package common contains common API Schema definitions
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-common-commonstring"]
+==== CommonString
+
+_Underlying type:_ _string_
+
+
+
+
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookspec[$$GuestbookSpec$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookstatus[$$GuestbookStatus$$]
+****
+
+
+
+
+[id="{anchor_prefix}-webapp-test-k8s-elastic-co-v1"]
+=== webapp.test.k8s.elastic.co/v1
+
+Package v1 contains API Schema definitions for the webapp v1 API group
+
+.Resource Types
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded[$$Embedded$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbook[$$Guestbook$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbooklist[$$GuestbookList$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying[$$Underlying$$]
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded"]
+==== Embedded
+
+
+
+
+
+
+
+
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`apiVersion`* __string__ | `webapp.test.k8s.elastic.co/v1` | |
+| *`kind`* __string__ | `Embedded` | |
+| *`metadata`* __link:https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta[$$ObjectMeta$$]__ | Refer to Kubernetes API documentation for fields of `metadata`.
+ |  | 
+| *`a`* __string__ |  |  | 
+| *`b`* __string__ |  |  | 
+| *`c`* __string__ |  |  | 
+| *`x`* __string__ |  |  | 
+| *`d`* __string__ |  |  | 
+| *`e`* __string__ |  |  | 
+|===
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embeddedx"]
+==== EmbeddedX
+
+
+
+
+
+
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded[$$Embedded$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded1[$$Embedded1$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded2[$$Embedded2$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded3[$$Embedded3$$]
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-embedded4[$$Embedded4$$]
+****
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`x`* __string__ |  |  | 
+|===
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbook"]
+==== Guestbook
+
+
+
+Guestbook is the Schema for the guestbooks API.
+
+
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbooklist[$$GuestbookList$$]
+****
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`apiVersion`* __string__ | `webapp.test.k8s.elastic.co/v1` | |
+| *`kind`* __string__ | `Guestbook` | |
+| *`metadata`* __link:https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta[$$ObjectMeta$$]__ | Refer to Kubernetes API documentation for fields of `metadata`.
+ |  | 
+| *`spec`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookspec[$$GuestbookSpec$$]__ |  | { page:1 } | 
+|===
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookentry"]
+==== GuestbookEntry
+
+
+
+GuestbookEntry defines an entry in a guest book.
+
+
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookspec[$$GuestbookSpec$$]
+****
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`name`* __string__ | Name of the guest (pipe \| should be escaped) |  | MaxLength: 80 +
+Pattern: `0\*[a-z0-9]*[a-z]*[0-9]` +
+
+| *`time`* __link:https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#time-v1-meta[$$Time$$]__ | Time of entry |  | 
+| *`comment`* __string__ | Comment by guest. This can be a multi-line comment. +
+
+Just like this one. |  | Pattern: `0\*[a-z0-9]*[a-z]\*[0-9]*` +
+
+| *`rating`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-rating[$$Rating$$]__ | Rating provided by the guest |  | Maximum: 5 +
+Minimum: 1 +
+
+|===
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookheader"]
+==== GuestbookHeader
+
+_Underlying type:_ _string_
+
+GuestbookHeaders are strings to include at the top of a page.
+
+
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookspec[$$GuestbookSpec$$]
+****
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbooklist"]
+==== GuestbookList
+
+
+
+GuestbookList contains a list of Guestbook.
+
+
+
+
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`apiVersion`* __string__ | `webapp.test.k8s.elastic.co/v1` | |
+| *`kind`* __string__ | `GuestbookList` | |
+| *`metadata`* __link:https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta[$$ListMeta$$]__ | Refer to Kubernetes API documentation for fields of `metadata`.
+ |  | 
+| *`items`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbook[$$Guestbook$$] array__ |  |  | 
+|===
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookspec"]
+==== GuestbookSpec
+
+
+
+GuestbookSpec defines the desired state of Guestbook.
+
+
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbook[$$Guestbook$$]
+****
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`page`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-positiveint[$$PositiveInt$$]__ | Page indicates the page number | 1 | Minimum: 1 +
+
+| *`entries`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookentry[$$GuestbookEntry$$] array__ | Entries contain guest book entries for the page |  | 
+| *`selector`* __link:https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta[$$LabelSelector$$]__ | Selector selects something |  | 
+| *`headers`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookheader[$$GuestbookHeader$$] array__ | Headers contains a list of header items to include in the page |  | MaxItems: 10 +
+UniqueItems: true +
+
+| *`certificateRef`* __link:https://gateway-api.sigs.k8s.io/references/spec/#gateway.networking.k8s.io/v1beta1.SecretObjectReference[$$SecretObjectReference$$]__ | CertificateRef is a reference to a secret containing a certificate |  | 
+| *`str`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-common-commonstring[$$CommonString$$]__ |  |  | 
+|===
+
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-positiveint"]
+==== PositiveInt
+
+_Underlying type:_ _integer_
+
+
+
+.Validation:
+- Minimum: 1
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookspec[$$GuestbookSpec$$]
+****
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-rating"]
+==== Rating
+
+_Underlying type:_ _integer_
+
+Rating is the rating provided by a guest.
+
+.Validation:
+- Maximum: 5
+- Minimum: 1
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-guestbookentry[$$GuestbookEntry$$]
+****
+
+
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying"]
+==== Underlying
+
+
+
+Underlying tests that Underlying1's underlying type is Underlying2 instead of string.
+
+
+
+
+
+[cols="20a,50a,15a,15a", options="header"]
+|===
+| Field | Description | Default | Validation
+| *`apiVersion`* __string__ | `webapp.test.k8s.elastic.co/v1` | |
+| *`kind`* __string__ | `Underlying` | |
+| *`metadata`* __link:https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta[$$ObjectMeta$$]__ | Refer to Kubernetes API documentation for fields of `metadata`.
+ |  | 
+| *`a`* __xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying1[$$Underlying1$$]__ |  | b | MaxLength: 10 +
+
+|===
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying1"]
+==== Underlying1
+
+_Underlying type:_ _xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying2[$$Underlying2$$]_
+
+Underlying1 has an underlying type with an underlying type
+
+.Validation:
+- MaxLength: 10
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying[$$Underlying$$]
+****
+
+
+
+[id="{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying2"]
+==== Underlying2
+
+_Underlying type:_ _string_
+
+Underlying2 is a string alias
+
+.Validation:
+- MaxLength: 10
+
+.Appears In:
+****
+- xref:{anchor_prefix}-github-com-elastic-crd-ref-docs-api-v1-underlying1[$$Underlying1$$]
+****
+
+
+
