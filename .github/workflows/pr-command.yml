@@ -12,7 +12,7 @@ jobs:
     if: |
       ${{
          github.event.issue.pull_request
-         && github.repository == 'envoyproxy/gateway'
+         && github.repository == 'yuluo-yx/deigmata-paideias'
          && github.actor != 'repokitteh-read-only[bot]'
          && github.actor != 'dependabot[bot]'
       }}
@@ -22,6 +22,6 @@ jobs:
       pull-requests: write
       actions: write
     steps:
-      - uses: yuluo-yx/gh-retest
+      - uses: yuluo-yx/gh-retest@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
