@@ -22,7 +22,7 @@ jobs:
       pull-requests: write
       actions: write
     steps:
-      - uses: yuluo-yx/gh-retest@2024.04.22
+      - uses: yuluo-yx/gh-retest@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           comment-id: ${{ github.event.comment.id }}
