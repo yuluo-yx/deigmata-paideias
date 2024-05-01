@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        /* 去除浏览器默认内外边距 */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        /* 溢出隐藏 */
+        overflow: hidden;
+        /* 设置弹性布局 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* 设置渐变色 */
+        background: linear-gradient(to right, #e6a49d, #fff);
+      }
+
+      /* 四叶草 */
+      .box {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        /* 设置换行 */
+        flex-wrap: wrap;
+        /* 动画，转动 */
+        animation: myRotate 10s linear infinite;
+      }
+
+      /* 单片四叶草，正方形 */
+      .clover {
+        width: 200px;
+        height: 200px;
+        background-color: #e6a49d;
+        border: 1px solid #fff;
+      }
+
+      /* 单片四叶草，圆形 */
+      .clover::before {
+        content: "";
+        width: 200px;
+        height: 200px;
+        background-color: #e6a49d;
+        position: absolute;
+        border-radius: 50%;
+        transform: translateX(-100px);
+      }
+
+      /* 单片四叶草，圆形 */
+      .clover::after {
+        content: "";
+        width: 200px;
+        height: 200px;
+        background-color: #e6a49d;
+        position: absolute;
+        border-radius: 50%;
+        transform: translateY(-100px);
+      }
+
+      /* 设置水平竖直方向的位置，以及旋转角度 */
+      .clover:nth-child(1) {
+        transform: translate(52px, 52px);
+      }
+
+      .clover:nth-child(2) {
+        transform: translate(52px, 52px) rotate(90deg);
+      }
+
+      .clover:nth-child(3) {
+        transform: translateX(52px) rotate(-90deg);
+      }
+
+      .clover:nth-child(4) {
+        transform: translateX(52px) rotate(180deg);
+      }
+
+      /* 旋转动画 */
+      @keyframes myRotate {
+        25% {
+          transform: rotate(90deg);
+        }
+
+        50% {
+          transform: rotate(180deg);
+        }
+
+        75% {
+          transform: rotate(270deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* 表单盒子 */
+      .form-box {
+        position: absolute;
+        width: 400px;
+        height: 500px;
+        border-radius: 5px;
+        right: 20%;
+        /* 模糊，磨砂质感 */
+        backdrop-filter: blur(10px);
+        box-shadow: 2px 1px 19px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+      }
+
+      .login-box,
+      .register-box {
+        /* 过渡动画 */
+        transition: 2s ease-in-out;
+      }
+
+      /* 一开始隐藏注册盒子 */
+      .register-box {
+        display: none;
+      }
+
+      /* 标题 */
+      .title {
+        margin-top: 50px;
+        text-align: center;
+        /* 设置用户禁止选中 */
+        user-select: none;
+        color: #fff;
+        /* 文字阴影 */
+        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      /* 图片盒子 */
+      .img-box {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+        user-select: none;
+        border-radius: 50%;
+        /* 溢出隐藏 */
+        overflow: hidden;
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      /* 图片 */
+      .img-box img {
+        width: 100%;
+      }
+
+      /* 输入框盒子 */
+      .input-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* 输入框 */
+      input {
+        outline: none;
+        width: 60%;
+        height: 40px;
+        margin-bottom: 20px;
+        text-indent: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        border: 1px solid #fff;
+      }
+
+      input::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      input:focus::placeholder {
+        opacity: 0;
+      }
+
+      /* 按钮盒子 */
+      .btn-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* 按钮 */
+      button {
+        width: 100px;
+        height: 30px;
+        margin-bottom: 10px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 4px;
+        background-color: #c08f8a;
+        /* border: 1px solid #e6a49d; */
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+    </style>
+    <title>clover</title>
+  </head>
+  <body>
+    <!-- 四叶草 -->
+    <div class="box">
+      <!-- 四叶草的单片叶子 -->
+      <div class="clover"></div>
+      <div class="clover"></div>
+      <div class="clover"></div>
+      <div class="clover"></div>
+    </div>
+    <!-- 表单盒子 -->
+    <div class="form-box">
+      <!-- 登录盒子 -->
+      <div class="login-box">
+        <!-- 标题 -->
+        <h1 class="title">Sign in</h1>
+        <!-- 图片盒子 -->
+        <div class="img-box">
+          <!-- 图片 -->
+          <img src="./assets/胡桃.jpg" alt="" />
+        </div>
+        <!-- 输入框盒子 -->
+        <div class="input-box">
+          <!-- 输入框 -->
+          <input type="text" placeholder="用户名" />
+          <input type="password" placeholder="密码" />
+        </div>
+        <!-- 按钮盒子 -->
+        <div class="btn-box">
+          <button>登录</button>
+          <!-- 绑定点击事件 -->
+          <button onclick="mySlide()">注册</button>
+        </div>
+      </div>
+      <!-- 注册盒子 -->
+      <div class="register-box">
+        <!-- 标题 -->
+        <h1 class="title">Sign up</h1>
+        <!-- 图片盒子 -->
+        <div class="img-box">
+          <!-- 图片 -->
+          <img src="./assets/可莉.png" alt="" />
+        </div>
+        <!-- 输入框盒子 -->
+        <div class="input-box">
+          <!-- 输入框 -->
+          <input type="text" placeholder="用户名" />
+          <input type="password" placeholder="密码" />
+          <input type="password" placeholder="确认密码" />
+        </div>
+        <!-- 按钮盒子 -->
+        <div class="btn-box">
+          <button>注册</button>
+          <!-- 绑定点击事件 -->
+          <button onclick="mySlide()">登录</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      // 控制切换状态
+      let flag = true;
+      // 切换函数
+      const mySlide = () => {
+        // 获取注册盒子和登录盒子的dom元素
+        const register_box = document.querySelector(".register-box");
+        const login_box = document.querySelector(".login-box");
+
+        if (flag) {
+          // 注册盒子显示
+          register_box.style.display = "block";
+          // 登录盒子隐藏
+          login_box.style.display = "none";
+        } else {
+          //注册盒子隐藏
+          register_box.style.display = "none";
+          // 登录盒子显示
+          login_box.style.display = "block";
+        }
+        // 每次点击都改变状态
+        flag = !flag;
+      };
+    </script>
+  </body>
+</html>
