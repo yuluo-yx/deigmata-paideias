@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+  <localRepository>D:\environment\Java\apache-maven-3.9.0\repository</localRepository>
+
+  <pluginGroups></pluginGroups>
+
+  <proxies></proxies>
+
+  <servers></servers>
+
+  <mirrors>
+    <mirror>
+        <id>alimaven</id>
+        <name>aliyun maven</name>
+        <mirrorOf>central</mirrorOf>
+        <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+        <!-- <url>http://maven.aliyun.com/nexus/content/groups/public</url> -->
+    </mirror>
+    <mirror>
+      <id>mirrorId</id>
+      <mirrorOf>repositoryId</mirrorOf>
+      <name>Human Readable Name for this Mirror.</name>
+      <url>http://my.repository.com/repo/path</url>
+    </mirror>
+  </mirrors>
+
+<profiles>
+    <profile>
+      <id>aliyun</id>
+      <repositories>
+        <repository> 
+          <id>aliyun</id>
+          <url>https://maven.aliyun.com/repository/public</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+    
+    <profile>
+      <id>maven-center</id>
+      <repositories>
+        <repository>
+          <id>maven-center</id>
+          <url>https://repo.maven.apache.org/maven2/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>aliyun</activeProfile>
+    <activeProfile>maven-center</activeProfile>
+  </activeProfiles>
+
+</settings>
