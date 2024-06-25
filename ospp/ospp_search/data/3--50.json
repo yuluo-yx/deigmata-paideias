@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 109,
+    "programCode": "24a9b0106",
+    "programName": "开源 PPL.CV移动端GPU + OpenCL图像处理算子支持与优化"
+  },
+  {
+    "proId": 110,
+    "programCode": "24f080107",
+    "programName": "HTNN controller 支持更多服务发现（如 Consul、Nacos v2）"
+  },
+  {
+    "proId": 112,
+    "programCode": "24fed0109",
+    "programName": "编写 AI 插件，可用于 ONLYOFFICE 电子表格和演示文稿"
+  },
+  {
+    "proId": 113,
+    "programCode": "24fed0110",
+    "programName": "编写插件，将证件照转换器与 ONLYOFFICE 进行集成"
+  },
+  {
+    "proId": 114,
+    "programCode": "24fed0111",
+    "programName": "编写 ONLYOFFICE 插件，可用于在文档编辑器中访问图标与字体库"
+  },
+  {
+    "proId": 115,
+    "programCode": "2490e0112",
+    "programName": "基于 openInula 框架的页面调试工具开发"
+  },
+  {
+    "proId": 116,
+    "programCode": "2490e0113",
+    "programName": "openInula 类型系统开发"
+  },
+  {
+    "proId": 117,
+    "programCode": "2490e0114",
+    "programName": "openInula自定义渲染"
+  },
+  {
+    "proId": 118,
+    "programCode": "24a190115",
+    "programName": "面向数据中心的RISC-V云计算/云原生软件生态适配"
+  },
+  {
+    "proId": 119,
+    "programCode": "2451c0116",
+    "programName": "Zino应用开发脚手架"
+  },
+  {
+    "proId": 120,
+    "programCode": "2490e0117",
+    "programName": "openInula 测试工具开发"
+  },
+  {
+    "proId": 121,
+    "programCode": "24ee30118",
+    "programName": "使用 Darabonba 生成 Eventbridge 管控侧 SDK"
+  },
+  {
+    "proId": 122,
+    "programCode": "24ee30119",
+    "programName": "实现阿里云 OSS Sink Connector"
+  },
+  {
+    "proId": 123,
+    "programCode": "24ba90120",
+    "programName": "飞桨PaddlePaddle-PIR适配2ONNX推理转换"
+  },
+  {
+    "proId": 124,
+    "programCode": "2434b0121",
+    "programName": "通用 PyTorch 函数"
+  },
+  {
+    "proId": 125,
+    "programCode": "2490e0122",
+    "programName": "opeInula API-2.0"
+  },
+  {
+    "proId": 126,
+    "programCode": "248430123",
+    "programName": "为IvorySQL增加更多XML函数支持"
+  },
+  {
+    "proId": 127,
+    "programCode": "248430124",
+    "programName": "为IvorySQL增加一键式安装脚本"
+  },
+  {
+    "proId": 128,
+    "programCode": "248430125",
+    "programName": "完善IvorySQL容器化部署"
+  },
+  {
+    "proId": 129,
+    "programCode": "2490e0126",
+    "programName": "openInula AI 代码生成工具"
+  },
+  {
+    "proId": 131,
+    "programCode": "248020128",
+    "programName": "集成 AWS 和 GCP 的 Secrets Manager"
+  },
+  {
+    "proId": 132,
+    "programCode": "248020129",
+    "programName": "重构 APISIX Dashboard 以兼容最新版 Apache APISIX"
+  },
+  {
+    "proId": 133,
+    "programCode": "2490e0130",
+    "programName": "openInula元框架开发"
+  },
+  {
+    "proId": 134,
+    "programCode": "248020131",
+    "programName": "APISIX Ingress Controller 支持 Gateway API 到 GA 状态"
+  },
+  {
+    "proId": 135,
+    "programCode": "245fc0132",
+    "programName": "构建管控共享边缘独占的多租隔离解决方案"
+  },
+  {
+    "proId": 136,
+    "programCode": "245fc0133",
+    "programName": "OpenYurt：开发针对Raven组件的跨域通信可观测性能力"
+  },
+  {
+    "proId": 137,
+    "programCode": "240dc0134",
+    "programName": "SpinalHDL库DDRx SDRAM通用控制器设计"
+  },
+  {
+    "proId": 138,
+    "programCode": "24b970135",
+    "programName": "基于erofs文件系统的bcj压缩优化"
+  },
+  {
+    "proId": 139,
+    "programCode": "245fc0136",
+    "programName": "OpenYurt：支持节点池维度的IoT系统配置隔离"
+  },
+  {
+    "proId": 140,
+    "programCode": "24b970137",
+    "programName": "基于rust语言重写hostname命令"
+  },
+  {
+    "proId": 141,
+    "programCode": "24b970138",
+    "programName": "基于Rust语言实现ssh快速连接工具"
+  },
+  {
+    "proId": 142,
+    "programCode": "24b970139",
+    "programName": "基于rust语言实现rat命令"
+  },
+  {
+    "proId": 143,
+    "programCode": "24b970140",
+    "programName": "提供Qt Creator集成开发环境"
+  },
+  {
+    "proId": 144,
+    "programCode": "24b970141",
+    "programName": "研发openEuler操作系统升级工具"
+  },
+  {
+    "proId": 145,
+    "programCode": "24b970142",
+    "programName": "优化dde桌面启动过程中的黑屏时间"
+  },
+  {
+    "proId": 146,
+    "programCode": "24b970143",
+    "programName": "基于secGear的高效KV存储数据结构设计与实现"
+  },
+  {
+    "proId": 147,
+    "programCode": "24b970144",
+    "programName": "flameshot引入"
+  },
+  {
+    "proId": 148,
+    "programCode": "24ba90145",
+    "programName": "飞桨PaddlePaddle-动转静支持子图高阶微分"
+  },
+  {
+    "proId": 149,
+    "programCode": "24ba90146",
+    "programName": "飞桨PaddlePaddle-PIR适配VisualDL模型可视化"
+  },
+  {
+    "proId": 150,
+    "programCode": "24b080147",
+    "programName": "Value Log Compaction 的流程与性能优化"
+  },
+  {
+    "proId": 151,
+    "programCode": "249c00148",
+    "programName": "Improve RISC-V architecture support in RTOS Embox"
+  },
+  {
+    "proId": 152,
+    "programCode": "24f6b0149",
+    "programName": "大模型训练任务并行度参数的自动调参"
+  },
+  {
+    "proId": 153,
+    "programCode": "24f6b0150",
+    "programName": "大模型推理性能自动化调优/版本性能追踪"
+  },
+  {
+    "proId": 154,
+    "programCode": "249c00151",
+    "programName": "Multiprocessing in RTOS Embox"
+  },
+  {
+    "proId": 155,
+    "programCode": "248690152",
+    "programName": "基于BotSharp实现智能体的反思能力"
+  },
+  {
+    "proId": 156,
+    "programCode": "245c40153",
+    "programName": "Karmada 组件 RBAC 权限最小化"
+  },
+  {
+    "proId": 157,
+    "programCode": "24f420154",
+    "programName": "MaxKey APP客户端Flutter开发项目"
+  },
+  {
+    "proId": 158,
+    "programCode": "245080155",
+    "programName": "Casvisor开源堡垒机 + 日志审计系统（前端React，后端Golang）"
+  },
+  {
+    "proId": 159,
+    "programCode": "245080156",
+    "programName": "现代化 Casbin 在 PHP/Python 语言中的实现增强"
+  },
+  {
+    "proId": 160,
+    "programCode": "245080157",
+    "programName": "Casbin核心引擎（Golang）"
+  }
+]

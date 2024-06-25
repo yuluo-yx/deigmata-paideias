@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 318,
+    "programCode": "248d90312",
+    "programName": "面向RISC-V设备的自动化测试与性能评估平台的设计与搭建"
+  },
+  {
+    "proId": 319,
+    "programCode": "248bf0313",
+    "programName": "PikaPython解释器REPL自动补全算法的设计"
+  },
+  {
+    "proId": 321,
+    "programCode": "2498a0315",
+    "programName": "Sedna 联合推理、联邦学习控制器优化"
+  },
+  {
+    "proId": 322,
+    "programCode": "2498a0316",
+    "programName": "多语言mapper支持 "
+  },
+  {
+    "proId": 323,
+    "programCode": "24a7f0317",
+    "programName": "面向云原生的下一代微服务集群监测机制（涵盖Kubernetes、Nacos 等）"
+  },
+  {
+    "proId": 324,
+    "programCode": "2498a0318",
+    "programName": "大语言模型边侧基准测试套件：基于KubeEdge-Ianvs实现"
+  },
+  {
+    "proId": 325,
+    "programCode": "2498a0319",
+    "programName": "行业大模型基准测试套件：基于KubeEdge-Ianvs实现"
+  },
+  {
+    "proId": 326,
+    "programCode": "24a7f0320",
+    "programName": "实现支持 Dubbo 部署在 Kubernetes Service 下的完整解决方案（涵盖控制面、SDK）"
+  },
+  {
+    "proId": 327,
+    "programCode": "24a7f0321",
+    "programName": "一种跨集群Kubernetes、传统VM微服务集群的互通方案与实现"
+  },
+  {
+    "proId": 328,
+    "programCode": "24a7f0322",
+    "programName": "支持 Dubbo 控制台的全面升级计划，完成资源查询、监控、流量管控等部分的 UI 设计与前端实现"
+  },
+  {
+    "proId": 329,
+    "programCode": "2498a0323",
+    "programName": "代码大模型基准测试套件：基于 KubeEdge-Ianvs 构建"
+  },
+  {
+    "proId": 330,
+    "programCode": "2498a0324",
+    "programName": "大语言模型云边协同推理：基于KubeEdge-Ianvs实现 "
+  },
+  {
+    "proId": 331,
+    "programCode": "2498a0325",
+    "programName": "批量节点接入 "
+  },
+  {
+    "proId": 332,
+    "programCode": "2498a0326",
+    "programName": "提供一个通用的 MQTT 协议"
+  },
+  {
+    "proId": 333,
+    "programCode": "2498a0327",
+    "programName": "边缘节点支持OTA升级 "
+  },
+  {
+    "proId": 334,
+    "programCode": "2498a0328",
+    "programName": "支持边缘节点上报event "
+  },
+  {
+    "proId": 336,
+    "programCode": "2498a0330",
+    "programName": "基于KubeEdge的移动自组织网络边缘计算架构设计与实现 "
+  },
+  {
+    "proId": 337,
+    "programCode": "2498a0331",
+    "programName": "KubeEdge边缘设备管理插件Mapper支持设备发现"
+  },
+  {
+    "proId": 338,
+    "programCode": "2498a0332",
+    "programName": "使用 KubeEdge 实现基于深度学习的设备故障检测场景"
+  },
+  {
+    "proId": 339,
+    "programCode": "2498a0333",
+    "programName": "大语言模型智能体（LLM Agent）个性化研究：基于KubeEdge-Ianvs云边协同终身学习"
+  },
+  {
+    "proId": 340,
+    "programCode": "2498a0334",
+    "programName": "面向标注稀缺问题的联邦类增量学习研究：基于KubeEdge-Ianvs实现"
+  },
+  {
+    "proId": 341,
+    "programCode": "2498a0335",
+    "programName": "面向高移动场景的异构多边协同神经网络推理"
+  },
+  {
+    "proId": 342,
+    "programCode": "245000336",
+    "programName": "撰写、完善 OI Wiki 上的内容"
+  },
+  {
+    "proId": 343,
+    "programCode": "245c40337",
+    "programName": "Karmada 支持 OverridePolicy 动态配置机制"
+  },
+  {
+    "proId": 344,
+    "programCode": "24b970338",
+    "programName": "基于easybox框架支持rust版本的file基础命令"
+  },
+  {
+    "proId": 345,
+    "programCode": "245c40338",
+    "programName": "Karmada Dashboard自动化i18n工具"
+  },
+  {
+    "proId": 346,
+    "programCode": "24b970339",
+    "programName": "llvm与gcc的兼容性分析--implementation defined behavior"
+  },
+  {
+    "proId": 347,
+    "programCode": "241910340",
+    "programName": "实现高效的 Nydus 镜像 Prefetch 构建能力"
+  },
+  {
+    "proId": 348,
+    "programCode": "24b970341",
+    "programName": "基于sysSentry框架支持常见硬件的故障巡检能力"
+  },
+  {
+    "proId": 349,
+    "programCode": "245c40342",
+    "programName": "实现 Karmada Dashboard 的 Override Policy 管理功能"
+  },
+  {
+    "proId": 350,
+    "programCode": "241910343",
+    "programName": "实现 Nydus 镜像组件 Config 热更新能力"
+  },
+  {
+    "proId": 351,
+    "programCode": "24b970344",
+    "programName": "基于ebpf技术的拓扑系统网络流量监控功能"
+  },
+  {
+    "proId": 352,
+    "programCode": "241190345",
+    "programName": "基于图数据库 nebula 的 LOOKUP 语法支持 UPDATE"
+  },
+  {
+    "proId": 353,
+    "programCode": "241110346",
+    "programName": "支持 Monoio 运行时"
+  },
+  {
+    "proId": 354,
+    "programCode": "241910347",
+    "programName": "实现高效的 Nydus 镜像 Compact 能力"
+  },
+  {
+    "proId": 355,
+    "programCode": "241110348",
+    "programName": "支持 Origin Private File System"
+  },
+  {
+    "proId": 356,
+    "programCode": "24b4d0349",
+    "programName": "MatrixAI Bot"
+  },
+  {
+    "proId": 357,
+    "programCode": "248770350",
+    "programName": "基于 IDE 插件一键创建 CloudWeGo 服务"
+  },
+  {
+    "proId": 358,
+    "programCode": "24a190351",
+    "programName": "基于RISC-V 架构平台的大数据流处理框架移植与优化"
+  },
+  {
+    "proId": 359,
+    "programCode": "2498a0352",
+    "programName": "KubeEdge支持边缘节点离线场景下对数据面资源的操作 "
+  },
+  {
+    "proId": 360,
+    "programCode": "24f080353",
+    "programName": "对齐Layotto对Dapr的依赖"
+  },
+  {
+    "proId": 361,
+    "programCode": "247d60354",
+    "programName": "为 SimpleRenderer 添加渲染特性"
+  },
+  {
+    "proId": 362,
+    "programCode": "24b970355",
+    "programName": "cantian项目支持ALGORITHM=INSTANT创表算法"
+  },
+  {
+    "proId": 363,
+    "programCode": "24b970356",
+    "programName": "openEuler支持浮点检查器"
+  },
+  {
+    "proId": 364,
+    "programCode": "24b4d0357",
+    "programName": "Implement Document LLM support in MatrixOrigin Database"
+  },
+  {
+    "proId": 365,
+    "programCode": "24f1e0358",
+    "programName": "Kmesh数据面治理可扩展性"
+  },
+  {
+    "proId": 366,
+    "programCode": "24b970359",
+    "programName": "LLVM构建openEuler软件包兼容性问题分析及解决（Part I）"
+  },
+  {
+    "proId": 367,
+    "programCode": "24f1e0360",
+    "programName": "kmesh e2e测试"
+  },
+  {
+    "proId": 368,
+    "programCode": "24b970361",
+    "programName": "LLVM构建openEuler软件包兼容性问题分析及解决（Part II）"
+  },
+  {
+    "proId": 369,
+    "programCode": "24f1e0362",
+    "programName": "一致性hash负载均衡"
+  }
+]

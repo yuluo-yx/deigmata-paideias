@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 473,
+    "programCode": "24b970464",
+    "programName": "基于 openEuler A-Tune 的训练模型调优框架实现"
+  },
+  {
+    "proId": 474,
+    "programCode": "24b970465",
+    "programName": "基于内核动态打桩的进程级cgroup内存占用分析工具"
+  },
+  {
+    "proId": 475,
+    "programCode": "24b970466",
+    "programName": "为 openEuler RISC-V 引入 tensorflow"
+  },
+  {
+    "proId": 476,
+    "programCode": "24c6d0467",
+    "programName": "提升MindSpore Quantum Stabilizer模拟器性能"
+  },
+  {
+    "proId": 477,
+    "programCode": "24c6d0468",
+    "programName": "量子启发式算法训练深度生成式AI模型"
+  },
+  {
+    "proId": 478,
+    "programCode": "24b970469",
+    "programName": "引入统一的系统功能配置工具"
+  },
+  {
+    "proId": 479,
+    "programCode": "246820470",
+    "programName": "Arthas 里集成的 Async Profiler 升级到 3.0 版本"
+  },
+  {
+    "proId": 480,
+    "programCode": "24b970470",
+    "programName": "为UKUI桌面引入麒麟安装卸载工具"
+  },
+  {
+    "proId": 481,
+    "programCode": "245a30471",
+    "programName": "狮偶官方教程重构（含文档、视频和程序）"
+  },
+  {
+    "proId": 482,
+    "programCode": "24b970472",
+    "programName": "基于openEuler gazelle实现自动化单元测试框架"
+  },
+  {
+    "proId": 483,
+    "programCode": "248690473",
+    "programName": "LLamaSharp: 提升离线LLM处理复杂任务的能力"
+  },
+  {
+    "proId": 484,
+    "programCode": "248bf0474",
+    "programName": "基于pikapython的工业可编程控制器的设计和实现"
+  },
+  {
+    "proId": 485,
+    "programCode": "24ec80475",
+    "programName": "面向分布式图系统稳定性的测试框架"
+  },
+  {
+    "proId": 486,
+    "programCode": "24b970476",
+    "programName": "为UKUI桌面侧边栏引入麒麟虚拟键盘输入法插件"
+  },
+  {
+    "proId": 487,
+    "programCode": "24b970477",
+    "programName": "基于分布式存储系统fastblock的全自动化部署和卸载"
+  },
+  {
+    "proId": 488,
+    "programCode": "24b970478",
+    "programName": "实现openEuler gazelle基于socket事件的IO多路复用功能"
+  },
+  {
+    "proId": 489,
+    "programCode": "246460479",
+    "programName": "支持 External Dictionaries"
+  },
+  {
+    "proId": 490,
+    "programCode": "24b970480",
+    "programName": "基于easybox框架支持rust版本的grep基础命令"
+  },
+  {
+    "proId": 491,
+    "programCode": "241970481",
+    "programName": "多智能体框架功能扩展"
+  },
+  {
+    "proId": 492,
+    "programCode": "24b970482",
+    "programName": "openEuler Embedded北向软件完善（图形及AI主流框架方向）"
+  },
+  {
+    "proId": 493,
+    "programCode": "24b970483",
+    "programName": "基于gazelle支持udp的ipv6通信"
+  },
+  {
+    "proId": 494,
+    "programCode": "246460484",
+    "programName": "为 BendSQL 添加 Query Profiling 支持"
+  },
+  {
+    "proId": 495,
+    "programCode": "24b970485",
+    "programName": "面向ARM/X86等架构场景，优化文件文件系统的IO性能"
+  },
+  {
+    "proId": 496,
+    "programCode": "24c6d0486",
+    "programName": "基于MindSpore的BitsAndBytes量化框架实现。"
+  },
+  {
+    "proId": 497,
+    "programCode": "24c480487",
+    "programName": "Rust 基于完成的异步 QUIC"
+  },
+  {
+    "proId": 498,
+    "programCode": "24ab20488",
+    "programName": "PolyOS Mobile 上 ArkCompiler ETS Runtime assembler 的 RISCV 支持"
+  },
+  {
+    "proId": 500,
+    "programCode": "24c6d0490",
+    "programName": "基于MindNLP/Mindformers的AI Agent（Pilot）桌面应用"
+  },
+  {
+    "proId": 501,
+    "programCode": "24c480491",
+    "programName": "RISC-V 向量处理器 T1 性能评估框架"
+  },
+  {
+    "proId": 502,
+    "programCode": "24e260492",
+    "programName": "知识图谱引导的可控生成项目"
+  },
+  {
+    "proId": 503,
+    "programCode": "2464b0493",
+    "programName": "为 Kong Gateway Operator 项目增加可观测性和 HPA 支持"
+  },
+  {
+    "proId": 504,
+    "programCode": "24fbd0494",
+    "programName": "Spark StarRocks Connector"
+  },
+  {
+    "proId": 505,
+    "programCode": "24c480495",
+    "programName": "基于前端技术栈的 OpenStreetMap 中公共交通关系编辑器"
+  },
+  {
+    "proId": 506,
+    "programCode": "24c6d0496",
+    "programName": "基于MindNLP和Mindformers的Accelerate组件开发"
+  },
+  {
+    "proId": 507,
+    "programCode": "24c480497",
+    "programName": "CIRCT 编译器的电路划分及 Arcilator 仿真并行化"
+  },
+  {
+    "proId": 508,
+    "programCode": "24c6d0497",
+    "programName": "基于昇思MindSpore实现开放视觉检测和分割场景应用"
+  },
+  {
+    "proId": 510,
+    "programCode": "24b740499",
+    "programName": "Syntax highlighting for programming language"
+  },
+  {
+    "proId": 511,
+    "programCode": "248ec0500",
+    "programName": "使用 hyperloglog 算法实现 approx_count_distinct 函数"
+  },
+  {
+    "proId": 512,
+    "programCode": "24b740501",
+    "programName": "OpenType math font support"
+  },
+  {
+    "proId": 513,
+    "programCode": "24c6d0502",
+    "programName": "可用于不适定问题的Navier-Stokes方程求解网络"
+  },
+  {
+    "proId": 514,
+    "programCode": "243ba0503",
+    "programName": "Volcano支持Pod Scheduling Readiness调度"
+  },
+  {
+    "proId": 515,
+    "programCode": "24fbd0504",
+    "programName": "StarRocks 支持 Arrow Flight SQL "
+  },
+  {
+    "proId": 516,
+    "programCode": "243ba0505",
+    "programName": "Volcano支持多集群AI任务调度中的队列容量管理能力"
+  },
+  {
+    "proId": 517,
+    "programCode": "247280506",
+    "programName": "基于TuGraph-DB的Text2GQL模型微调"
+  },
+  {
+    "proId": 518,
+    "programCode": "247280507",
+    "programName": "TuGraph-DB支持快速Schema字段变更"
+  },
+  {
+    "proId": 519,
+    "programCode": "247280508",
+    "programName": "TuGraph-DB查询引擎优化"
+  },
+  {
+    "proId": 520,
+    "programCode": "243ba0509",
+    "programName": "volcano支持弹性层级队列管理"
+  },
+  {
+    "proId": 521,
+    "programCode": "241bd0510",
+    "programName": "为开源RDMA适配NVIDIA或AMD GPU"
+  },
+  {
+    "proId": 522,
+    "programCode": "2467d0511",
+    "programName": "重构Rainbond源码构建体系"
+  },
+  {
+    "proId": 523,
+    "programCode": "249430512",
+    "programName": "Kvrocks 事务语义增强"
+  },
+  {
+    "proId": 524,
+    "programCode": "245520513",
+    "programName": "搭建与改善用户文档和开发者指南"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 370,
+    "programCode": "24f1e0363",
+    "programName": "Kmesh支持拓扑感知{地域}负载均衡"
+  },
+  {
+    "proId": 371,
+    "programCode": "24b970364",
+    "programName": "LLVM构建openEuler软件包兼容性问题分析及解决（Part III）"
+  },
+  {
+    "proId": 372,
+    "programCode": "24f1e0365",
+    "programName": "Kmesh支持限流"
+  },
+  {
+    "proId": 373,
+    "programCode": "24f1e0366",
+    "programName": "Kmesh支持熔断"
+  },
+  {
+    "proId": 374,
+    "programCode": "24f1e0367",
+    "programName": "Kmesh性能可视化"
+  },
+  {
+    "proId": 375,
+    "programCode": "24f1e0368",
+    "programName": "Kmesh eBPF UT测试框架"
+  },
+  {
+    "proId": 376,
+    "programCode": "246590369",
+    "programName": "RustSBI原型设计系统"
+  },
+  {
+    "proId": 377,
+    "programCode": "24a2d0370",
+    "programName": "增加Raft注册插件"
+  },
+  {
+    "proId": 378,
+    "programCode": "246590371",
+    "programName": "RISC-V Online 在线反汇编网站"
+  },
+  {
+    "proId": 380,
+    "programCode": "246ea0373",
+    "programName": "存储和AI框架的深度集成"
+  },
+  {
+    "proId": 381,
+    "programCode": "2495a0374",
+    "programName": "Koupleless 模块打包插件 gradle 版本"
+  },
+  {
+    "proId": 382,
+    "programCode": "24e4d0375",
+    "programName": "铜锁社区项目 RustyVault 支持 prometheus 日志开发"
+  },
+  {
+    "proId": 383,
+    "programCode": "24e980375",
+    "programName": "为 Directory Table 文件系统表提供 FTP/SFTP 协议支持"
+  },
+  {
+    "proId": 384,
+    "programCode": "2495a0376",
+    "programName": "存量应用自动改造成模块"
+  },
+  {
+    "proId": 385,
+    "programCode": "24ec80377",
+    "programName": "基于 HugeGraph 的 LLM-Agent"
+  },
+  {
+    "proId": 386,
+    "programCode": "246ea0378",
+    "programName": "提高Alluxio worker内存空间的利用效率"
+  },
+  {
+    "proId": 387,
+    "programCode": "245800379",
+    "programName": "Runtime-rs 支持 Remote Hypervisor"
+  },
+  {
+    "proId": 388,
+    "programCode": "245800380",
+    "programName": "Runtime-rs + Dragonball 兼容 Docker"
+  },
+  {
+    "proId": 389,
+    "programCode": "24f630381",
+    "programName": "Apache Doris 可观测性场景生态完善"
+  },
+  {
+    "proId": 390,
+    "programCode": "245800382",
+    "programName": "Runtime-rs 支持可配置性编译 Dragonball"
+  },
+  {
+    "proId": 391,
+    "programCode": "240b00383",
+    "programName": "支持视图（Views）"
+  },
+  {
+    "proId": 392,
+    "programCode": "243a30384",
+    "programName": "PyPI 仓库同步工具"
+  },
+  {
+    "proId": 393,
+    "programCode": "24ab10385",
+    "programName": "Nacos 支持 Java native-image 运行方式"
+  },
+  {
+    "proId": 394,
+    "programCode": "244700386",
+    "programName": "完成 Spring Cloud Alibaba 对 Spring AI 适配，支持通义系列模型"
+  },
+  {
+    "proId": 395,
+    "programCode": "244700387",
+    "programName": "Spring Cloud Admin 服务治理控制面建设"
+  },
+  {
+    "proId": 396,
+    "programCode": "244700388",
+    "programName": "Spring Cloud Admin 服务治理控制面建设 - UI设计与前端开发"
+  },
+  {
+    "proId": 397,
+    "programCode": "2451d0389",
+    "programName": "CLINDET-AGMIN 癌症多组学衰老因子自动挖掘框架"
+  },
+  {
+    "proId": 399,
+    "programCode": "246820391",
+    "programName": "Arthas 3/4 版本分开发布，网站支持切换不同版本"
+  },
+  {
+    "proId": 400,
+    "programCode": "249430392",
+    "programName": "为 Apache Kvrocks Controller 添加 Web 管理界面"
+  },
+  {
+    "proId": 401,
+    "programCode": "246330393",
+    "programName": "Webassembly ControlNet"
+  },
+  {
+    "proId": 402,
+    "programCode": "246820394",
+    "programName": "探索 Java 低资源消耗的 gRPC 实现"
+  },
+  {
+    "proId": 403,
+    "programCode": "241970395",
+    "programName": "大模型语义缓存系统的适配/集成"
+  },
+  {
+    "proId": 404,
+    "programCode": "246590396",
+    "programName": "用Rust语言重写SyterKit引导程序项目"
+  },
+  {
+    "proId": 405,
+    "programCode": "245c40397",
+    "programName": "karmadactl 功能补齐以及运维体验提升"
+  },
+  {
+    "proId": 406,
+    "programCode": "248940398",
+    "programName": "SeaTunnel Zeta Engine UI 开发"
+  },
+  {
+    "proId": 407,
+    "programCode": "246330399",
+    "programName": "Frame Distributed Video Enhancement"
+  },
+  {
+    "proId": 409,
+    "programCode": "249020401",
+    "programName": "EventMesh 场景化应用探索"
+  },
+  {
+    "proId": 410,
+    "programCode": "24bc30402",
+    "programName": "面向在线评测平台的云 IDE"
+  },
+  {
+    "proId": 411,
+    "programCode": "24dc00403",
+    "programName": "基于 kube-rs 实现超时资源回收控制器"
+  },
+  {
+    "proId": 412,
+    "programCode": "24f0c0404",
+    "programName": "为 bpftime 提升测试覆盖率及完善自动化测试框架"
+  },
+  {
+    "proId": 413,
+    "programCode": "24b970405",
+    "programName": "引入OrientDB到openEuler"
+  },
+  {
+    "proId": 414,
+    "programCode": "24b970406",
+    "programName": "基于langchain和ReAct实现智能shell命令执行"
+  },
+  {
+    "proId": 415,
+    "programCode": "24b970407",
+    "programName": "引入DNF5新一代RPM管理器"
+  },
+  {
+    "proId": 416,
+    "programCode": "24c6d0408",
+    "programName": "基于贪心坐标梯度优化器的大模型自动化对抗攻击工具"
+  },
+  {
+    "proId": 417,
+    "programCode": "24b970409",
+    "programName": "基于用户态高性能协议栈gazelle的加速适用性检测工具开发"
+  },
+  {
+    "proId": 418,
+    "programCode": "24c6d0410",
+    "programName": "数据与物理混合驱动下的物理场预测模型"
+  },
+  {
+    "proId": 419,
+    "programCode": "24c6d0411",
+    "programName": "单细胞多组学大模型开发"
+  },
+  {
+    "proId": 420,
+    "programCode": "24b970412",
+    "programName": "基于lwip TCP/IP协议栈，针对gazelle 对UDP 组播igmpv3，以及 socket option, 通过日志 gazellectl 计数等，增强问题定位能力以及可测试性"
+  },
+  {
+    "proId": 421,
+    "programCode": "24c6d0413",
+    "programName": "基于Q-Former的多模态分子大模型"
+  },
+  {
+    "proId": 422,
+    "programCode": "24b970414",
+    "programName": "引入mock 3.5及5.x版本到openEuler社区"
+  }
+]

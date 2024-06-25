@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 526,
+    "programCode": "24e430515",
+    "programName": "SecretFlow 拆分学习中实现两个攻击及两个防御算法"
+  },
+  {
+    "proId": 527,
+    "programCode": "248830516",
+    "programName": "支持 llm.c 作为 WasmEdge 插件"
+  },
+  {
+    "proId": 528,
+    "programCode": "248830517",
+    "programName": "为  WasmEdge 添加 stable diffusion.cpp 插件"
+  },
+  {
+    "proId": 529,
+    "programCode": "241bd0518",
+    "programName": "为开源RDMA网卡适配lumina测试工具"
+  },
+  {
+    "proId": 530,
+    "programCode": "24bc80519",
+    "programName": "面向 OpenMLDB 数据库的大屏可视化运维系统"
+  },
+  {
+    "proId": 531,
+    "programCode": "2441f0520",
+    "programName": "为国产 Milk-V Duo 开发板移植 Real Time Preemption 补丁"
+  },
+  {
+    "proId": 532,
+    "programCode": "2441f0521",
+    "programName": "为 OpenSBI 增加 Section GC 功能"
+  },
+  {
+    "proId": 533,
+    "programCode": "2441f0522",
+    "programName": "为 StratoVirt 新增 RISC-V 架构支持"
+  },
+  {
+    "proId": 534,
+    "programCode": "2441f0523",
+    "programName": "为 Buildroot 搭建国内镜像站并新建一套面向 Buildroot 的二进制包管理服务"
+  },
+  {
+    "proId": 535,
+    "programCode": "2441f0524",
+    "programName": "epiphany-browser 异常卡死问题分析与解决以及 upstream"
+  },
+  {
+    "proId": 539,
+    "programCode": "241170528",
+    "programName": "Modernize the libc crate"
+  },
+  {
+    "proId": 540,
+    "programCode": "241170529",
+    "programName": "Improve infrastructure automation tools"
+  },
+  {
+    "proId": 541,
+    "programCode": "24a190530",
+    "programName": "EulixOS RV 3.0版本构建与发布"
+  },
+  {
+    "proId": 542,
+    "programCode": "24b5c0531",
+    "programName": "Porting KDE Games to Android platform"
+  },
+  {
+    "proId": 543,
+    "programCode": "249870532",
+    "programName": "Amoro 完善在 Kubernetes 部署环境下的扩展"
+  },
+  {
+    "proId": 544,
+    "programCode": "2490f0533",
+    "programName": "基于 Satori 协议的聊天平台实现"
+  },
+  {
+    "proId": 545,
+    "programCode": "24fc00534",
+    "programName": "丰富 Go 客户端特性"
+  },
+  {
+    "proId": 546,
+    "programCode": "247280535",
+    "programName": "TuGraph-DB 查询链路向量化执行"
+  },
+  {
+    "proId": 547,
+    "programCode": "245520536",
+    "programName": "社区OpenRank排行榜页面的开发"
+  },
+  {
+    "proId": 548,
+    "programCode": "2490f0537",
+    "programName": "Koishi 网络调试工具"
+  },
+  {
+    "proId": 549,
+    "programCode": "24c6d0538",
+    "programName": "基于昇思MindSpore+香橙派的具身智能应用开发"
+  },
+  {
+    "proId": 550,
+    "programCode": "24fd10539",
+    "programName": "开源软件RISC-V架构适配历史综合分析"
+  },
+  {
+    "proId": 551,
+    "programCode": "24c6d0540",
+    "programName": "基于昇思MindSpore动态图的MindOne套件开发"
+  },
+  {
+    "proId": 552,
+    "programCode": "24fd10541",
+    "programName": "RISC-V软件打包辅助工具（VSCode插件）设计与开发"
+  },
+  {
+    "proId": 553,
+    "programCode": "24c6d0542",
+    "programName": "工业场景下裂缝的识别及宽度测量策略开发"
+  },
+  {
+    "proId": 554,
+    "programCode": "24fd10543",
+    "programName": "睿迁 RISC-V 代码迁移辅助 VSCode 插件设计与开发"
+  },
+  {
+    "proId": 555,
+    "programCode": "24c6d0544",
+    "programName": "基于M-LibCity复现的交通预测应用"
+  },
+  {
+    "proId": 556,
+    "programCode": "24c6d0545",
+    "programName": "基于M-LibCity复现交通流量预测应用"
+  },
+  {
+    "proId": 557,
+    "programCode": "24c6d0546",
+    "programName": "面向复杂农业场景的作物种类识别和病虫害检测实践应用"
+  },
+  {
+    "proId": 558,
+    "programCode": "24c6d0547",
+    "programName": "海域侦察兵：海警船舶搭载的邻海上帝之眼实践应用"
+  },
+  {
+    "proId": 559,
+    "programCode": "24c6d0548",
+    "programName": "基于大规模预训练语言模型的单细胞类型注释和测序干扰预测算法实践应用"
+  },
+  {
+    "proId": 560,
+    "programCode": "24c6d0549",
+    "programName": "基于MindNLP完成对LLAMA3模型完成RLHF训练"
+  },
+  {
+    "proId": 561,
+    "programCode": "24aca0549",
+    "programName": "eBPF性能评估：多维度分析与最佳实践指导"
+  },
+  {
+    "proId": 562,
+    "programCode": "24aca0550",
+    "programName": "eBPF进程画像的深度优化与功能扩展"
+  },
+  {
+    "proId": 563,
+    "programCode": "24b970551",
+    "programName": "基于UADK的统一的benchmark工具支持非对称加解密算法性能测试"
+  },
+  {
+    "proId": 564,
+    "programCode": "24aca0552",
+    "programName": "Linux服务器集群的应用软件自动化部署管理工具"
+  },
+  {
+    "proId": 565,
+    "programCode": "24b970553",
+    "programName": "基于用户态协议栈gazelle的全栈零拷贝功能实现"
+  },
+  {
+    "proId": 566,
+    "programCode": "248af0554",
+    "programName": "StreamPark 平台HA支持"
+  },
+  {
+    "proId": 567,
+    "programCode": "24aca0555",
+    "programName": "基于FUSE的分布式内存文件系统"
+  },
+  {
+    "proId": 568,
+    "programCode": "24b970556",
+    "programName": "Linux系统物理内存碎片可视化监控工具"
+  },
+  {
+    "proId": 569,
+    "programCode": "24b970557",
+    "programName": "面向大规模集群的诊断模型端到端性能优化"
+  },
+  {
+    "proId": 570,
+    "programCode": "24fc00558",
+    "programName": "Integration of Apache IoTDB with Apache StreamPipes"
+  },
+  {
+    "proId": 571,
+    "programCode": "24b970559",
+    "programName": "manticoresearch客户端开发"
+  },
+  {
+    "proId": 573,
+    "programCode": "24aaf0561",
+    "programName": "Sentinel 离群摘除功能的调研和实现"
+  },
+  {
+    "proId": 574,
+    "programCode": "2441f0561",
+    "programName": "为 RISC-V 添加 Static Call 支持并提交补丁"
+  },
+  {
+    "proId": 575,
+    "programCode": "2441f0562",
+    "programName": "为包管理工具 tinyget 开发图形用户管理界面并完善相应功能"
+  },
+  {
+    "proId": 576,
+    "programCode": "247180562",
+    "programName": "多语言框架开发"
+  },
+  {
+    "proId": 577,
+    "programCode": "2444e0563",
+    "programName": "时序存储单机 WAL 实现"
+  },
+  {
+    "proId": 578,
+    "programCode": "247180564",
+    "programName": "coredump信息定位工具"
+  },
+  {
+    "proId": 579,
+    "programCode": "247180565",
+    "programName": "智能主题制作工具"
+  }
+]

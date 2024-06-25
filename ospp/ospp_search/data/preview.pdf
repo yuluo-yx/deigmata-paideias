@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/font.css" type="text/css" />
+    <title>开源软件供应链点亮计划-开源之夏2024</title>
+    <meta name="description" content="OSPP2024 搭建开源社区和高校开发者的桥梁，培养和发掘更多优秀的开发者，共筑开源软件可靠供应链。" />
+    <meta
+      name="keywords"
+      content="开源之夏2024,开源软件供应链点亮计划,软件所,智能软件研究中心,OSPP 2024,OSPP-2024,Open Source Promotion Plan"
+    />
+    <meta name="copyright" content="开源软件供应链点亮计划-开源之夏 活动组委会" />
+    <script type="module" crossorigin src="/assets/index.f245c946.js"></script>
+    <link rel="stylesheet" href="/assets/index.5a4b1d1d.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+    <script>
+      const global = globalThis
+    </script>
+   <script type="text/javascript">document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1281243141'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1281243141' type='text/javascript'%3E%3C/script%3E"));</script>
+   <!-- <script async src="https://www.yoya.ai/sdk.js" id="d147e0ab-9140-43a5-9f52-9351d3f1e3f7" icColor="#7635dc"></script> -->
+  </body>
+</html>

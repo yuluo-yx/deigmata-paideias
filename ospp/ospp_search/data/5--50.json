@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 212,
+    "programCode": "245660209",
+    "programName": "RROS性能测量驱动实现"
+  },
+  {
+    "proId": 213,
+    "programCode": "24aee0210",
+    "programName": "Pinecone向量数据库存储组件"
+  },
+  {
+    "proId": 214,
+    "programCode": "245080211",
+    "programName": "CasWAF开源应用层网关防火墙（前端React，后端Golang或C）"
+  },
+  {
+    "proId": 215,
+    "programCode": "245080212",
+    "programName": "Casbin.NET 生态完善（.NET, C#）"
+  },
+  {
+    "proId": 217,
+    "programCode": "244db0214",
+    "programName": "Confidential vTPM - TEE 保护的 vTPM 方案"
+  },
+  {
+    "proId": 218,
+    "programCode": "240dc0215",
+    "programName": "SpinalHDL IP核的IP-XACT描述文件生成"
+  },
+  {
+    "proId": 219,
+    "programCode": "24c570216",
+    "programName": "将 AO.space 容器合并成一个容器并适配到 RISC-V 架构"
+  },
+  {
+    "proId": 220,
+    "programCode": "24b970217",
+    "programName": "异常日志采集工具开发"
+  },
+  {
+    "proId": 221,
+    "programCode": "24b970218",
+    "programName": "面向LLVM开发调试场景新增实用功能选项"
+  },
+  {
+    "proId": 222,
+    "programCode": "24b970219",
+    "programName": "基于ollama搭建本地的通用大模型工具"
+  },
+  {
+    "proId": 223,
+    "programCode": "247d60220",
+    "programName": "Katalyst 规格推荐代码及部署能力优化"
+  },
+  {
+    "proId": 224,
+    "programCode": "24b970221",
+    "programName": "完成k8s-install在openEuler发行版的适配 | Adapt K8s-install on openEuler"
+  },
+  {
+    "proId": 225,
+    "programCode": "24b970222",
+    "programName": "利用LAVA，Jenkins搭建RISC-V架构的Kennel CI"
+  },
+  {
+    "proId": 226,
+    "programCode": "24ad90223",
+    "programName": "实现SM9算法以及UUID v7"
+  },
+  {
+    "proId": 227,
+    "programCode": "24b970224",
+    "programName": "适配开源工具FileZilla至社区"
+  },
+  {
+    "proId": 228,
+    "programCode": "2413e0225",
+    "programName": "GraphScope Interactive 图查询引擎中的存储过程增强功能开发"
+  },
+  {
+    "proId": 229,
+    "programCode": "24b970226",
+    "programName": "新增实验性 C 标准库 LLVM Libc 至社区"
+  },
+  {
+    "proId": 230,
+    "programCode": "24b970227",
+    "programName": "通过A-FOT工具支持LLVM编译器接入以提升反馈优化易用性"
+  },
+  {
+    "proId": 231,
+    "programCode": "24aee0228",
+    "programName": "Qdrant向量数据库存储组件"
+  },
+  {
+    "proId": 232,
+    "programCode": "2413e0229",
+    "programName": "基于GraphScope的PyG Remote Backend"
+  },
+  {
+    "proId": 233,
+    "programCode": "247410230",
+    "programName": "Milvus文件格式转换工具"
+  },
+  {
+    "proId": 234,
+    "programCode": "246eb0231",
+    "programName": "iLogtail 数据吞吐性能优化"
+  },
+  {
+    "proId": 235,
+    "programCode": "247410232",
+    "programName": "Milvus CDC 支持sink 到kafka "
+  },
+  {
+    "proId": 236,
+    "programCode": "247410233",
+    "programName": "Geo Spatial DataType and GIS Funcitons support"
+  },
+  {
+    "proId": 237,
+    "programCode": "248330234",
+    "programName": "KubeBlocks 支持 etcd Add-on"
+  },
+  {
+    "proId": 238,
+    "programCode": "247410235",
+    "programName": "实现 Milvus expr 中自定义function 模块"
+  },
+  {
+    "proId": 239,
+    "programCode": "246eb0236",
+    "programName": "ConfigServer 能力升级 + 体验优化（全栈）"
+  },
+  {
+    "proId": 240,
+    "programCode": "24c6b0237",
+    "programName": "基于 JavaAgent 实现无需修改代码引入 Hippo4j"
+  },
+  {
+    "proId": 241,
+    "programCode": "248330238",
+    "programName": "KubeBlocks 支持 Redis PITR（基于时间点恢复）和指定 Key 恢复"
+  },
+  {
+    "proId": 242,
+    "programCode": "2425a0239",
+    "programName": "补充 MegEngine 昇腾训练算子"
+  },
+  {
+    "proId": 244,
+    "programCode": "2462f0241",
+    "programName": "增强Apache Shenyu对Kubernetes相关支持"
+  },
+  {
+    "proId": 245,
+    "programCode": "24c6b0242",
+    "programName": "Hippo4j 支持 SpringBoot3 框架完成线程池变更监控和报警"
+  },
+  {
+    "proId": 246,
+    "programCode": "24b970243",
+    "programName": "移植部署 MCS on MilkV DUO-RISCV大小核"
+  },
+  {
+    "proId": 247,
+    "programCode": "24b970244",
+    "programName": "为 openEuler riscv 实现完整的 kdump 支持"
+  },
+  {
+    "proId": 248,
+    "programCode": "24b970245",
+    "programName": "llvm与gcc的兼容性分析--unspecified behavior"
+  },
+  {
+    "proId": 249,
+    "programCode": "244db0246",
+    "programName": "EROFS文件系统测试增强"
+  },
+  {
+    "proId": 250,
+    "programCode": "24ab20247",
+    "programName": "基于 Qt 的 Qemu 移动终端模拟器改进"
+  },
+  {
+    "proId": 251,
+    "programCode": "24f630248",
+    "programName": "增强 Apache Doris 数据湖格式的读写能力"
+  },
+  {
+    "proId": 252,
+    "programCode": "24db60249",
+    "programName": "RoundedImageView第三方库版本演进及特性实现"
+  },
+  {
+    "proId": 253,
+    "programCode": "24db60250",
+    "programName": "导航指示类第三方库版本演进及特性实现"
+  },
+  {
+    "proId": 254,
+    "programCode": "247dc0251",
+    "programName": "OSS Compass-开源社区画像"
+  },
+  {
+    "proId": 255,
+    "programCode": "24db60252",
+    "programName": "工具类第三方库版本演进及特性实现"
+  },
+  {
+    "proId": 256,
+    "programCode": "247dc0253",
+    "programName": "OSS Compass-开发者画像"
+  },
+  {
+    "proId": 257,
+    "programCode": "245650254",
+    "programName": "MoonBit 基于属性的测试(QuickCheck)"
+  },
+  {
+    "proId": 258,
+    "programCode": "245650255",
+    "programName": "MoonBit 测试智能体"
+  },
+  {
+    "proId": 259,
+    "programCode": "2413e0256",
+    "programName": "基于用户交互的图模式查询工具"
+  },
+  {
+    "proId": 260,
+    "programCode": "24ab20257",
+    "programName": "PolyOS for QEMU 的ALSA音频框架支持"
+  },
+  {
+    "proId": 261,
+    "programCode": "240640258",
+    "programName": "全链路支持gRPC协议"
+  },
+  {
+    "proId": 262,
+    "programCode": "2462f0259",
+    "programName": "Apache Shenyu SpringCloudPlugin 插件增强"
+  },
+  {
+    "proId": 263,
+    "programCode": "24b970260",
+    "programName": "基于LLVM实现静态调用栈分析工具"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 161,
+    "programCode": "245080158",
+    "programName": "Casibase开源AI知识库系统（前端React，后端Golang）"
+  },
+  {
+    "proId": 162,
+    "programCode": "24bef0159",
+    "programName": "[HertzBeat] 实现监控模板市场商店"
+  },
+  {
+    "proId": 163,
+    "programCode": "24f3e0160",
+    "programName": "自由及开源软件简中本地化工作"
+  },
+  {
+    "proId": 164,
+    "programCode": "24f3e0161",
+    "programName": "设计编写安同 OS 用户手册及编写规范"
+  },
+  {
+    "proId": 165,
+    "programCode": "24f3e0162",
+    "programName": "为 RISC-V 开发板提供安同 OS 系统镜像"
+  },
+  {
+    "proId": 166,
+    "programCode": "24a9b0163",
+    "programName": "PPL.LLM模型导出与量化"
+  },
+  {
+    "proId": 167,
+    "programCode": "24ee40164",
+    "programName": "Dromara 官网优化与重构"
+  },
+  {
+    "proId": 168,
+    "programCode": "24f5f0165",
+    "programName": "支持IVFPQ向量索引算法"
+  },
+  {
+    "proId": 169,
+    "programCode": "24ee40166",
+    "programName": "完成对域名映射相关功能的重构"
+  },
+  {
+    "proId": 170,
+    "programCode": "245000167",
+    "programName": "OI Wiki 用户反馈系统"
+  },
+  {
+    "proId": 171,
+    "programCode": "24ee40168",
+    "programName": "成Northstar量化平台的老虎网关模块的重写工作"
+  },
+  {
+    "proId": 172,
+    "programCode": "24a190169",
+    "programName": "面向RISC-V数据中心的KVM适配与优化"
+  },
+  {
+    "proId": 173,
+    "programCode": "2434b0170",
+    "programName": "规则级别的 CPU 用量统计"
+  },
+  {
+    "proId": 174,
+    "programCode": "246e70171",
+    "programName": "使用cert-manager管理kruise webhook证书"
+  },
+  {
+    "proId": 175,
+    "programCode": "246a40172",
+    "programName": "Answer Bot Plugin"
+  },
+  {
+    "proId": 176,
+    "programCode": "241920173",
+    "programName": "EROFS远程存储后端的支持"
+  },
+  {
+    "proId": 177,
+    "programCode": "24f080174",
+    "programName": "将 Sentinel-golang 流量控制能力集成进 MoE（MOSN on Enovy) 生态"
+  },
+  {
+    "proId": 178,
+    "programCode": "2452a0175",
+    "programName": "利用索引自动构建服务领域模型"
+  },
+  {
+    "proId": 179,
+    "programCode": "24db60176",
+    "programName": "实现在hap应用访问shell终端三方库移植"
+  },
+  {
+    "proId": 180,
+    "programCode": "24a190177",
+    "programName": "面向RISC-V数据中心的国产AI芯片软件栈适配"
+  },
+  {
+    "proId": 181,
+    "programCode": "24b970178",
+    "programName": "基于rust语言实现获取及修改系统基本信息的工具"
+  },
+  {
+    "proId": 182,
+    "programCode": "246a40179",
+    "programName": "个性化内容推荐 Personalized Recommendations"
+  },
+  {
+    "proId": 183,
+    "programCode": "24b970180",
+    "programName": "智能异构内存系统页面管理算法开发"
+  },
+  {
+    "proId": 184,
+    "programCode": "24b970181",
+    "programName": "基于libguestfs扩展支持openEuler虚拟机自定义设置"
+  },
+  {
+    "proId": 185,
+    "programCode": "24b970182",
+    "programName": "支持开源三维引擎OpenSceneGraph"
+  },
+  {
+    "proId": 186,
+    "programCode": "24b970183",
+    "programName": "添加BiSheng JDK8 RISC-V port的JIT支持"
+  },
+  {
+    "proId": 187,
+    "programCode": "24b970184",
+    "programName": "系统性内存访问监控自动化评测"
+  },
+  {
+    "proId": 188,
+    "programCode": "24c570185",
+    "programName": "实现 AO.space 开源版应用管理、构建和发布功能的集成开发"
+  },
+  {
+    "proId": 189,
+    "programCode": "245c40186",
+    "programName": "karmadactl 支持配置文件方式进行生产级环境安装部署"
+  },
+  {
+    "proId": 191,
+    "programCode": "24b970188",
+    "programName": "给imagetailor工具加入riscv64架构支持"
+  },
+  {
+    "proId": 192,
+    "programCode": "24c570189",
+    "programName": "AO.space GT Connect 子命令功能开发"
+  },
+  {
+    "proId": 193,
+    "programCode": "240ef0190",
+    "programName": "Enhancement of mulitple users control"
+  },
+  {
+    "proId": 194,
+    "programCode": "24c570191",
+    "programName": "实现将 AO.space 文件系统挂载到本地 Linux 操作系统"
+  },
+  {
+    "proId": 195,
+    "programCode": "247d60192",
+    "programName": "基于 Godel Scheduler 实现应用亲和/反亲和以及均匀分布功能"
+  },
+  {
+    "proId": 196,
+    "programCode": "2425a0193",
+    "programName": "设计 MegEngine 对 cuda 依赖方式的新方案，减小 whl 包的体积"
+  },
+  {
+    "proId": 197,
+    "programCode": "2425a0194",
+    "programName": "MegCC 支持 web assembly MatMul float 推理算子"
+  },
+  {
+    "proId": 198,
+    "programCode": "24fed0195",
+    "programName": "编写插件，将简历生成器与 ONLYOFFICE 进行集成"
+  },
+  {
+    "proId": 199,
+    "programCode": "246e70196",
+    "programName": "Kruise Rollout流量灰度支持traefik"
+  },
+  {
+    "proId": 200,
+    "programCode": "247e50197",
+    "programName": "Pika Binlog重构，实现主从复制和崩溃恢复"
+  },
+  {
+    "proId": 201,
+    "programCode": "2462f0198",
+    "programName": "Apache ShenYu命名空间设计与开发"
+  },
+  {
+    "proId": 202,
+    "programCode": "247e50199",
+    "programName": "Pika-Operater 开发"
+  },
+  {
+    "proId": 203,
+    "programCode": "247e50200",
+    "programName": "PikiwiDB (Pika) 支持向量数据库"
+  },
+  {
+    "proId": 204,
+    "programCode": "247e50201",
+    "programName": "构建 Pika 数据传输代理"
+  },
+  {
+    "proId": 205,
+    "programCode": "24b740202",
+    "programName": "Conversion from TeXmacs format to HTML and docx"
+  },
+  {
+    "proId": 206,
+    "programCode": "247e50203",
+    "programName": "PikiwiDB 缓存层实现冷热数据分离"
+  },
+  {
+    "proId": 207,
+    "programCode": "24b740204",
+    "programName": "Add Multi-Tab Display and Switching Functions"
+  },
+  {
+    "proId": 208,
+    "programCode": "247e50205",
+    "programName": "PikiwiDB 实现集群模式"
+  },
+  {
+    "proId": 209,
+    "programCode": "247e50206",
+    "programName": "实现 Pika 高性能流量转发代理"
+  },
+  {
+    "proId": 210,
+    "programCode": "247e50207",
+    "programName": "提升 Pika 性能"
+  },
+  {
+    "proId": 211,
+    "programCode": "24f420208",
+    "programName": "MaxKey同步功能增强，增加属性映射关系管理"
+  }
+]

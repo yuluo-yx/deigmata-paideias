@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 58,
+    "programCode": "24e0c0056",
+    "programName": "开发OpenFDE桌面环境的辅助输入应用"
+  },
+  {
+    "proId": 59,
+    "programCode": "2436e0057",
+    "programName": "Grid 组件重构和优化"
+  },
+  {
+    "proId": 60,
+    "programCode": "2436e0058",
+    "programName": "TinyVue增加Nuxt支持"
+  },
+  {
+    "proId": 61,
+    "programCode": "2436e0059",
+    "programName": "ElementPlus组件库全量物料接入"
+  },
+  {
+    "proId": 62,
+    "programCode": "2436e0060",
+    "programName": "插件灵活布局能力"
+  },
+  {
+    "proId": 63,
+    "programCode": "2436e0061",
+    "programName": "React DSL出码与预览功能实现"
+  },
+  {
+    "proId": 64,
+    "programCode": "2436e0062",
+    "programName": "AI插件搭建能力增强"
+  },
+  {
+    "proId": 65,
+    "programCode": "2436e0063",
+    "programName": "开发TinyEngine模板功能"
+  },
+  {
+    "proId": 66,
+    "programCode": "24f5f0064",
+    "programName": "ob-operator 命令行工具"
+  },
+  {
+    "proId": 67,
+    "programCode": "2436e0065",
+    "programName": "完善TinyPro Vue中后台系统"
+  },
+  {
+    "proId": 68,
+    "programCode": "24ed70066",
+    "programName": "补充Kurator发布特性支持的网关插件"
+  },
+  {
+    "proId": 69,
+    "programCode": "24aed0067",
+    "programName": "ZUI3日历组件开发"
+  },
+  {
+    "proId": 70,
+    "programCode": "24ed10068",
+    "programName": "为 洛书(Losu) 编程语言开发预编译器"
+  },
+  {
+    "proId": 71,
+    "programCode": "242a90069",
+    "programName": "大模型托管平台 CSGHub 的前后端分离"
+  },
+  {
+    "proId": 72,
+    "programCode": "249c00070",
+    "programName": "OpenCV with video on Embox RTOS"
+  },
+  {
+    "proId": 73,
+    "programCode": "24c4c0071",
+    "programName": "为Apollo的java、golang客户端缓存支持Kubernetes ConfigMap"
+  },
+  {
+    "proId": 74,
+    "programCode": "24c4c0072",
+    "programName": "为 Apollo 管理员工具添加全局搜 Value 的功能"
+  },
+  {
+    "proId": 75,
+    "programCode": "24c4c0073",
+    "programName": "为apollo-client添加更多可观测性"
+  },
+  {
+    "proId": 76,
+    "programCode": "24e4d0074",
+    "programName": "铜锁密码库Go语言SDK国密算法和协议开发"
+  },
+  {
+    "proId": 77,
+    "programCode": "24bef0075",
+    "programName": "[HertzBeat] 实现 java 原生的 ipmi2 通信协议"
+  },
+  {
+    "proId": 78,
+    "programCode": "2432c0076",
+    "programName": "为 GreptimeDB 添加 JSON 类型"
+  },
+  {
+    "proId": 79,
+    "programCode": "2432c0077",
+    "programName": "面向嵌入式环境下的资源限制框架"
+  },
+  {
+    "proId": 80,
+    "programCode": "2432c0078",
+    "programName": "设计并实现针对时序场景的类似 TPC-DS/TPC-H 的评测程序"
+  },
+  {
+    "proId": 81,
+    "programCode": "2432c0079",
+    "programName": "使用 eBPF Observability 的能力实现对 OpenAI 的网络收集并使用 OTel 协议写入 GreptimeDB"
+  },
+  {
+    "proId": 82,
+    "programCode": "2432c0080",
+    "programName": "Postgres 系统表及其 psql 相关查询支持"
+  },
+  {
+    "proId": 83,
+    "programCode": "24a900081",
+    "programName": "DynamicTp 核心模块中移除对spring的依赖，方便其他非spring框架集成"
+  },
+  {
+    "proId": 84,
+    "programCode": "241190082",
+    "programName": "基于图数据库 nebula 增加对 List / Set 类型的支持"
+  },
+  {
+    "proId": 85,
+    "programCode": "244ca0083",
+    "programName": "TEE传输层安全性协议实现Rats-TLS的Rust化"
+  },
+  {
+    "proId": 86,
+    "programCode": "2444e0084",
+    "programName": "HoraeDB 支持远端合并（Compcation Offloading）"
+  },
+  {
+    "proId": 87,
+    "programCode": "2444e0085",
+    "programName": "HoraeDB 命令行工具（HoraeCTL）支持集群部署"
+  },
+  {
+    "proId": 88,
+    "programCode": "246690086",
+    "programName": "Fluent Operator  集成 Fluent-bit 3.0"
+  },
+  {
+    "proId": 90,
+    "programCode": "246690088",
+    "programName": "OpenELB 支持 IPV6"
+  },
+  {
+    "proId": 91,
+    "programCode": "244db0089",
+    "programName": "coolbpf支持uprobe"
+  },
+  {
+    "proId": 92,
+    "programCode": "246690090",
+    "programName": "cluster-api-kubekey-provider  升级"
+  },
+  {
+    "proId": 93,
+    "programCode": "244db0091",
+    "programName": "T-One （一站式自动化测试平台）搭建智能助手"
+  },
+  {
+    "proId": 94,
+    "programCode": "2428d0092",
+    "programName": "利用 IntelliJ Platform SDK 完成 LiteFlowX 插件 V2.x 版本功能"
+  },
+  {
+    "proId": 95,
+    "programCode": "244ca0092",
+    "programName": "shelter - 基于libkrun的运行时框架"
+  },
+  {
+    "proId": 96,
+    "programCode": "2429e0093",
+    "programName": "Serverless Registry"
+  },
+  {
+    "proId": 97,
+    "programCode": "244db0094",
+    "programName": "机密计算关键组件支持可重复构建"
+  },
+  {
+    "proId": 98,
+    "programCode": "2429e0095",
+    "programName": "Serverless Devs 社区官网 （包括文档官网）"
+  },
+  {
+    "proId": 99,
+    "programCode": "244db0096",
+    "programName": "基于机密计算的Secure AI"
+  },
+  {
+    "proId": 100,
+    "programCode": "246690097",
+    "programName": "基于 LangChain 实现的 Pod 状态分析工具"
+  },
+  {
+    "proId": 101,
+    "programCode": "249870098",
+    "programName": "Amoro AMS 首页添加系统指标接口和相关图表"
+  },
+  {
+    "proId": 102,
+    "programCode": "240780099",
+    "programName": "新增 SQL 审核规则“MySQL 自增字段禁止手动插值”"
+  },
+  {
+    "proId": 103,
+    "programCode": "244db0100",
+    "programName": "实现 SMC 时延跟踪和分析机制"
+  },
+  {
+    "proId": 104,
+    "programCode": "244db0101",
+    "programName": "Linux故障注入和AIOps系统评测方法"
+  },
+  {
+    "proId": 105,
+    "programCode": "241190102",
+    "programName": "基于 NgBatis，实现从实体对象出发完成数据直查"
+  },
+  {
+    "proId": 106,
+    "programCode": "24ee30103",
+    "programName": "搭建自动化 RocketMQ Chaos 测试基础设施，并提升 Apache RocketMQ 测试流水线质量"
+  },
+  {
+    "proId": 107,
+    "programCode": "241190104",
+    "programName": "面向 NebulaGraph ArkTS 语言的客户端"
+  },
+  {
+    "proId": 108,
+    "programCode": "244f30105",
+    "programName": "NeuCharFramework 模块化快速开发框架"
+  }
+]

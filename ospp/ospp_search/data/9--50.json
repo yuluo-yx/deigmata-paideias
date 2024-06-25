@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 423,
+    "programCode": "24b970415",
+    "programName": "基于openEuler Embedded和海鸥派开发自动驾驶小车"
+  },
+  {
+    "proId": 424,
+    "programCode": "24c6d0416",
+    "programName": "浅层Clifford线路近似求解最大割问题"
+  },
+  {
+    "proId": 425,
+    "programCode": "24b970417",
+    "programName": "基于openEuler Embedded和海鸥派的无人机项目开源项目"
+  },
+  {
+    "proId": 426,
+    "programCode": "249020418",
+    "programName": "EventMesh connector与function实现"
+  },
+  {
+    "proId": 427,
+    "programCode": "24c6d0419",
+    "programName": "基于MindSpore Quantum，实现Q-JPEG算法"
+  },
+  {
+    "proId": 428,
+    "programCode": "246820420",
+    "programName": "为Arthas 开发一个native agent和远程管理平台，实现大规模集群管理诊断功能"
+  },
+  {
+    "proId": 429,
+    "programCode": "24b970421",
+    "programName": "基于gazelle实现资源可视化"
+  },
+  {
+    "proId": 430,
+    "programCode": "241190422",
+    "programName": "图数据库 NebulaGraph 对接数据访问层 OpenDAL"
+  },
+  {
+    "proId": 431,
+    "programCode": "24c6d0423",
+    "programName": "量子启发式算法的GPU/NPU加速"
+  },
+  {
+    "proId": 432,
+    "programCode": "2409e0424",
+    "programName": "PolarDB for PostgreSQL：优化BTree索引的写入速度"
+  },
+  {
+    "proId": 433,
+    "programCode": "24b970425",
+    "programName": "支持v4l2loopback以增强系统视频扩展能力"
+  },
+  {
+    "proId": 434,
+    "programCode": "24b970426",
+    "programName": "基于easybox框架支持rust版本的iostat基础命令"
+  },
+  {
+    "proId": 435,
+    "programCode": "24e7a0427",
+    "programName": "为 GraphAr 实现 ETL 命令行工具"
+  },
+  {
+    "proId": 436,
+    "programCode": "24b970427",
+    "programName": "基于openEuler Embedded和海鸥派开发AI机械臂绘图应用"
+  },
+  {
+    "proId": 437,
+    "programCode": "2498a0428",
+    "programName": "Windows非WSL虚拟化节点环境，改造mapper支持 Windows节点运行"
+  },
+  {
+    "proId": 438,
+    "programCode": "24b970429",
+    "programName": "基于用户态高性能协议栈gazelle的一键部署、一键清理"
+  },
+  {
+    "proId": 439,
+    "programCode": "24b970430",
+    "programName": "sysmonitor基于kprobe支持进程级别句柄监控"
+  },
+  {
+    "proId": 440,
+    "programCode": "24f0c0431",
+    "programName": "基于 bpftime 的 VirtIO 设备内存地址转换优化"
+  },
+  {
+    "proId": 441,
+    "programCode": "24b970432",
+    "programName": "基于openEuler Embedded和海鸥派开发AI ROS小车"
+  },
+  {
+    "proId": 442,
+    "programCode": "24b970433",
+    "programName": "基于openEuler Embedded的星闪开源应用案例开发"
+  },
+  {
+    "proId": 443,
+    "programCode": "24b970434",
+    "programName": "基于openEuler Embedded开发海鸥派扩展驱动并进行Python API接口封装"
+  },
+  {
+    "proId": 444,
+    "programCode": "24b970435",
+    "programName": "Redis场景使能SMC-R"
+  },
+  {
+    "proId": 445,
+    "programCode": "245c40436",
+    "programName": "Karmada 支持平滑回退单集群能力"
+  },
+  {
+    "proId": 446,
+    "programCode": "240ba0437",
+    "programName": "基于Apache Arrow实现Apache Linkis 的结果集直推特性"
+  },
+  {
+    "proId": 447,
+    "programCode": "24fec0438",
+    "programName": "李代数泛包络代数的 Julia 实现"
+  },
+  {
+    "proId": 448,
+    "programCode": "24aaf0439",
+    "programName": "构建统一的 Sentinel 事件体系"
+  },
+  {
+    "proId": 449,
+    "programCode": "24b970440",
+    "programName": "oebuild使能openEuler Embedded系统单元测试"
+  },
+  {
+    "proId": 450,
+    "programCode": "24fec0441",
+    "programName": "一个关于复杂问题约化的 Julia 包"
+  },
+  {
+    "proId": 451,
+    "programCode": "24b4d0442",
+    "programName": "基于大语言模型的操作系统任务自动识别，拆解，判断以及执行"
+  },
+  {
+    "proId": 452,
+    "programCode": "24b970443",
+    "programName": "基于openEuler Embedded的RedCap 5G图传案例开发"
+  },
+  {
+    "proId": 453,
+    "programCode": "240ba0444",
+    "programName": "Linkis管理台重构"
+  },
+  {
+    "proId": 454,
+    "programCode": "24b970445",
+    "programName": "基于easybox框架支持rust版本的find基础命令"
+  },
+  {
+    "proId": 455,
+    "programCode": "24b970446",
+    "programName": "RISC-V BPF JIT支持更多扩展"
+  },
+  {
+    "proId": 456,
+    "programCode": "248ec0447",
+    "programName": "在 OpenTenBase 中实现指定的兼容 Oracle 风格的 partition by 语法"
+  },
+  {
+    "proId": 457,
+    "programCode": "24fec0448",
+    "programName": "Exact Diagonalization for Quantum Lattice Systems with Translation Symmetry"
+  },
+  {
+    "proId": 458,
+    "programCode": "243420449",
+    "programName": "ByConity存储中的CheckSum优化"
+  },
+  {
+    "proId": 459,
+    "programCode": "24b970450",
+    "programName": "基于easybox框架支持rust版本的groupadd、useradd、usermod基础命令"
+  },
+  {
+    "proId": 460,
+    "programCode": "2451d0451",
+    "programName": "HemaScopeR 专用于分析血液系统肿瘤单细胞和空间转录组数据的生物信息学工具包"
+  },
+  {
+    "proId": 461,
+    "programCode": "24e430452",
+    "programName": "基于 SPU 实现 tree-based 分类算法与分位数回归算法"
+  },
+  {
+    "proId": 462,
+    "programCode": "247d60453",
+    "programName": "为 SimplePhysicsEngine 添加软体仿真"
+  },
+  {
+    "proId": 463,
+    "programCode": "24aff0454",
+    "programName": "bison 爬虫的 cookie 管理与调度系统"
+  },
+  {
+    "proId": 464,
+    "programCode": "24ec80455",
+    "programName": "实现 Graph 查询的内存限制 (Query 线程级) "
+  },
+  {
+    "proId": 465,
+    "programCode": "248af0456",
+    "programName": "spark作业部署管理"
+  },
+  {
+    "proId": 466,
+    "programCode": "248940457",
+    "programName": "flink支持多表读取+写入"
+  },
+  {
+    "proId": 467,
+    "programCode": "24b970458",
+    "programName": "基于easybox框架支持rust版本的mount、umount基础命令"
+  },
+  {
+    "proId": 468,
+    "programCode": "24b970459",
+    "programName": "基于easybox框架支持rust版本的login基础命令"
+  },
+  {
+    "proId": 469,
+    "programCode": "24c6d0460",
+    "programName": "基于图像深度学习的无线电信号识别"
+  },
+  {
+    "proId": 470,
+    "programCode": "24c6d0461",
+    "programName": "机器学习多目标结构超材料设计"
+  },
+  {
+    "proId": 471,
+    "programCode": "24c6d0462",
+    "programName": "基于Bert的DNA序列预测模型开发"
+  },
+  {
+    "proId": 472,
+    "programCode": "24c6d0463",
+    "programName": "动力学去耦技术提升量子线路保真度"
+  }
+]

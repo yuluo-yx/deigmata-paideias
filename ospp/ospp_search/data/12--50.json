@@ -1,0 +1,57 @@
+[
+  {
+    "proId": 580,
+    "programCode": "248c40566",
+    "programName": "OpenIM 扩展支持 FerretDB 集成项目"
+  },
+  {
+    "proId": 581,
+    "programCode": "248d90567",
+    "programName": "图级别编译基础设施面向异构硬件划分的实现与测试"
+  },
+  {
+    "proId": 582,
+    "programCode": "248d90568",
+    "programName": "面向深度学习模型的图级别编译优化"
+  },
+  {
+    "proId": 583,
+    "programCode": "248d90569",
+    "programName": "基于RISC-V向量拓展的动态张量程序编译优化"
+  },
+  {
+    "proId": 584,
+    "programCode": "248d90570",
+    "programName": "基于 MLIR 的 RFFT 算法实现"
+  },
+  {
+    "proId": 585,
+    "programCode": "248d90571",
+    "programName": "MLIR Matmul在CPU和GPU的优化设计与实现"
+  },
+  {
+    "proId": 586,
+    "programCode": "248d90572",
+    "programName": "面向大模型的 AI 编译量化实现"
+  },
+  {
+    "proId": 587,
+    "programCode": "248d90573",
+    "programName": "面向 RISC-V Vector 平台的大语言模型（LLM）性能评估测试集开发"
+  },
+  {
+    "proId": 588,
+    "programCode": "243ba0574",
+    "programName": "云原生批量计算项目Volcano UI \u0026 Monitor系统"
+  },
+  {
+    "proId": 589,
+    "programCode": "24aca0575",
+    "programName": "基于eBPF的 linux 内核网络优化和加速"
+  },
+  {
+    "proId": 590,
+    "programCode": "243ba0576",
+    "programName": "Volcano 性能基准测试和压力测试"
+  }
+]

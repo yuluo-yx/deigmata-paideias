@@ -1,0 +1,252 @@
+[
+  {
+    "proId": 264,
+    "programCode": "24b970261",
+    "programName": "引入 VSCodium 软件包"
+  },
+  {
+    "proId": 265,
+    "programCode": "240640262",
+    "programName": "与 Kubernetes 进行集成增强 seata-ctl 的运维能力"
+  },
+  {
+    "proId": 266,
+    "programCode": "24b970263",
+    "programName": "用Rust重写KubeOS os-operator组件"
+  },
+  {
+    "proId": 267,
+    "programCode": "24b970264",
+    "programName": "移植 delve 到 openEuler riscv"
+  },
+  {
+    "proId": 268,
+    "programCode": "241b90265",
+    "programName": "基于VIsActor的可视化叙事模版开发"
+  },
+  {
+    "proId": 269,
+    "programCode": "24f630266",
+    "programName": "增强 Apache Doris 基于各种对象存储的能力"
+  },
+  {
+    "proId": 270,
+    "programCode": "248430267",
+    "programName": "实现openGemini内核监控指标写入到Prometheus"
+  },
+  {
+    "proId": 271,
+    "programCode": "24a2d0268",
+    "programName": "增加DS-plugin Java插件"
+  },
+  {
+    "proId": 272,
+    "programCode": "24a2d0269",
+    "programName": "k8s任务功能扩展"
+  },
+  {
+    "proId": 273,
+    "programCode": "24a2d0270",
+    "programName": "重写JAVA任务类型"
+  },
+  {
+    "proId": 274,
+    "programCode": "24dc00271",
+    "programName": "Solidity教程:构建你的第一个智能合约"
+  },
+  {
+    "proId": 275,
+    "programCode": "244a40272",
+    "programName": "为 Fury JavaScript 实现基于元数据压缩共享的类型前后兼容对象序列化"
+  },
+  {
+    "proId": 276,
+    "programCode": "248430273",
+    "programName": "openGemini数据导出功能实现"
+  },
+  {
+    "proId": 277,
+    "programCode": "241170274",
+    "programName": "C codegen backend for rustc"
+  },
+  {
+    "proId": 278,
+    "programCode": "241170275",
+    "programName": "Extend annotate-snippets with features required by rustc"
+  },
+  {
+    "proId": 279,
+    "programCode": "240640276",
+    "programName": "实现控制台OpenAPI和提升系统安全性"
+  },
+  {
+    "proId": 280,
+    "programCode": "241170277",
+    "programName": "Improve bootstrap"
+  },
+  {
+    "proId": 284,
+    "programCode": "245c40281",
+    "programName": "Karmada 根据分布约束平均分配副本数"
+  },
+  {
+    "proId": 285,
+    "programCode": "241b90282",
+    "programName": "基于VTable开发Vue生态下的表格可视化组件"
+  },
+  {
+    "proId": 286,
+    "programCode": "24d520283",
+    "programName": "MQTTX"
+  },
+  {
+    "proId": 287,
+    "programCode": "240110284",
+    "programName": "vmm类型Pod支持使用youki库创建容器"
+  },
+  {
+    "proId": 288,
+    "programCode": "240640285",
+    "programName": "基于Raft和RocksDB实现配置中心"
+  },
+  {
+    "proId": 289,
+    "programCode": "240110286",
+    "programName": "使用tracing库增强组件可观测性"
+  },
+  {
+    "proId": 290,
+    "programCode": "24c560287",
+    "programName": "OpenMPL多线程运行时构造与改造"
+  },
+  {
+    "proId": 291,
+    "programCode": "246920287",
+    "programName": "重构动态表名插件"
+  },
+  {
+    "proId": 292,
+    "programCode": "24b970288",
+    "programName": "移植GreatSQL到openEuler RISC-V"
+  },
+  {
+    "proId": 293,
+    "programCode": "24b970289",
+    "programName": "为 Rust-Shyper 集成 RISC-V AIA 中断设备"
+  },
+  {
+    "proId": 294,
+    "programCode": "24b970290",
+    "programName": "elvish引入openEuler"
+  },
+  {
+    "proId": 295,
+    "programCode": "24b970291",
+    "programName": "fastblock项目支持tcp/ip协议栈"
+  },
+  {
+    "proId": 296,
+    "programCode": "24b970292",
+    "programName": "基于Vagrant+Ansible实现KubeOS环境一键部署并搭建e2e测试框架"
+  },
+  {
+    "proId": 298,
+    "programCode": "245000294",
+    "programName": "OI Wiki 示例代码与代码块集成测试"
+  },
+  {
+    "proId": 299,
+    "programCode": "248770295",
+    "programName": "Kitex 自定义模板易用性优化"
+  },
+  {
+    "proId": 300,
+    "programCode": "248770296",
+    "programName": "Cwgo 基于 IDL 生成 swagger 文档"
+  },
+  {
+    "proId": 301,
+    "programCode": "245630297",
+    "programName": "基于Lagent 实现 RAG 并构建可视化管道"
+  },
+  {
+    "proId": 302,
+    "programCode": "248770298",
+    "programName": "Cwgo 基于 IDL 生成  raw_sql 代码"
+  },
+  {
+    "proId": 303,
+    "programCode": "24ed70298",
+    "programName": "Kurator支持通过Fleet打通多集群网络"
+  },
+  {
+    "proId": 304,
+    "programCode": "24b970299",
+    "programName": "基于eBPF实现内核可编程CPU调频器功能"
+  },
+  {
+    "proId": 305,
+    "programCode": "24b970300",
+    "programName": "EulerCopilot智能搜索Agent插件开发"
+  },
+  {
+    "proId": 306,
+    "programCode": "24b970301",
+    "programName": "kytuning-client工具支持迭代安装rpm包验证性能测试"
+  },
+  {
+    "proId": 307,
+    "programCode": "24b970302",
+    "programName": "移植双内核中断虚拟化组件dovetail到loongarch架构"
+  },
+  {
+    "proId": 308,
+    "programCode": "24b970303",
+    "programName": "kytuning-client数据输出功能开发"
+  },
+  {
+    "proId": 309,
+    "programCode": "24b970304",
+    "programName": "EulerPublisher开发容器镜像分析模块以优化镜像体积"
+  },
+  {
+    "proId": 310,
+    "programCode": "247d60305",
+    "programName": "KubeAdmiral 构建 e2e 测试框架，覆盖多云主要场景"
+  },
+  {
+    "proId": 311,
+    "programCode": "24b970306",
+    "programName": "引入clickhouse到openEuler"
+  },
+  {
+    "proId": 312,
+    "programCode": "248860307",
+    "programName": "为 wayland 窗口管理器 treeland 实现平铺式布局逻辑"
+  },
+  {
+    "proId": 313,
+    "programCode": "2495a0307",
+    "programName": "SOFARPC 动态配置能力完善"
+  },
+  {
+    "proId": 314,
+    "programCode": "248860308",
+    "programName": "为 dde-shell 开发统计应用运行时间的插件"
+  },
+  {
+    "proId": 315,
+    "programCode": "24ab10309",
+    "programName": "拆分Nacos控制台使用的AdminAPI和客户端使用的openAPI及鉴权功能"
+  },
+  {
+    "proId": 316,
+    "programCode": "241b90310",
+    "programName": "基于VMind开发基于LLM的可视化智能生成组件"
+  },
+  {
+    "proId": 317,
+    "programCode": "24ab10311",
+    "programName": "演进Nacos-Python-Sdk，添加缺失的新功能"
+  }
+]
