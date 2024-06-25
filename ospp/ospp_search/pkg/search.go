@@ -20,13 +20,12 @@ type FilteredRow struct {
 }
 
 func readFile(filePath string) (map[string]FilteredRow, error) {
-	// 读取文件内容
+
 	data, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		return nil, err
 	}
 
-	// 解析 JSON 内容
 	var rows []struct {
 		ProId       int    `json:"proId"`
 		ProgramCode string `json:"programCode"`
@@ -37,7 +36,6 @@ func readFile(filePath string) (map[string]FilteredRow, error) {
 		return nil, err
 	}
 
-	// 将数据转换为 map[string]FilteredRow
 	rowMap := make(map[string]FilteredRow)
 	for _, row := range rows {
 		rowMap[row.ProgramCode] = FilteredRow{
@@ -72,7 +70,7 @@ func search() int {
 		fmt.Printf("ProgramCode: %s, Pro %v\n", customId, row)
 		proId = row.ProId
 	} else {
-		fmt.Printf("ProgramCode: %s 不存在\n", customId)
+		fmt.Printf("ProgramCode: %s not exists\n", customId)
 	}
 
 	return proId
@@ -94,7 +92,7 @@ func download(url, fileName string) {
 		return
 	}
 
-	req.Header.Set("Content-Type", "application/pdf")
+	req.Header.Set("Content-Type", "application/octet-stream")
 
 	resp, err := client.Do(req)
 	if err != nil {
