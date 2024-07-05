@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+    nginx:
+      container_name: excalidraw
+      image: nginx:latest
+      volumes:
+        - ./nginx/dist:/usr/share/nginx/html
+        - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      restart: on-failure
+      healthcheck:
+        test: [ "CMD", "curl", "-f", "http://localhost/health" ]
+        interval: 3s
+        timeout: 3s
+        retries: 5
+      ports:
+        - "80:80"
