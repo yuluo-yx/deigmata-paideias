@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: langchain4j-application
+
+langchain4j:
+  ollama:
+    chat-model:
+      base-url: http://localhost:11434
+      temperature: 0.7
+      model-name: qwen:4b
+      log-requests: true
+      log-responses: true
+
+logging:
+  level:
+    dev:
+      langchain4j: DEBUG

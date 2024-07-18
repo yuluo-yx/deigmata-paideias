@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: springai-application
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3
+        options:
+          temperature: 0.7
+    
