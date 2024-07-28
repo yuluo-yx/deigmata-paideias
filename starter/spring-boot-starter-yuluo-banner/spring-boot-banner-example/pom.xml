@@ -11,6 +11,11 @@
 	</parent>
 
 	<artifactId>spring-boot-banner-example</artifactId>
+	<properties>
+		<java.version>17</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 		<dependency>
