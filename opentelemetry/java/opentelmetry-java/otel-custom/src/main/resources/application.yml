@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: otel-custom-example-application
+
+logging:
+  pattern:
+    level: '%5p [${spring.application.name: }, %mdc{trace_id:-}, %mdc{span_id:-}, %mdc{span_kind:-}] '
+  level:
+    web: debug
