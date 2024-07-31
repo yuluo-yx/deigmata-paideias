@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+
+  grafana:
+    image: grafana/grafana
+    hostname: "otel-grafana"
+    container_name: "otel-grafana"
+    ports:
+      - "3000:3000"
+
+  # Jaeger
+#  jaeger-all-in-one:
+#    image: jaegertracing/all-in-one:latest
+#    ports:
+#      - "16686:16686"
+#      - "14268"
+#      - "14250:14250"
+#    environment:
+#      - COLLECTOR_OTLP_ENABLED=true
+
+  # Zipkin
+  zipkin-all-in-one:
+    image: openzipkin/zipkin:latest
+    hostname: zipkin
+    ports:
+      - "9411:9411"
+
+  otel-collector:
+    container_name: "otel-collector"
+    hostname: "otel-collector"
+    image: otel/opentelemetry-collector
+    volumes:
+      - ./otel/config.yml:/etc/otel/config.yml
+    ports:
+      #      - 18880:1888 # pprof extension
+      #      - 8888:8888 # Prometheus metrics exposed by the Collector
+      - "8889:8889" # Prometheus exporter metrics
+      #      - 13133:13133 # health_check extension
+      - "4317:4317" # OTLP gRPC receiver
+      - "4318:4318" # OTLP http receiver
+  #      - 55679:55679 # zpages extensio
+
+  prometheus:
+    container_name: prometheus
+    image: prom/prometheus:latest
+    volumes:
+      - ./prometheus/config.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"

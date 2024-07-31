@@ -1,0 +1,24 @@
+server:
+  port: 19999
+
+spring:
+  application:
+    name: spring-boot-Observable-application
+
+logging:
+  pattern:
+    correlation: "[${spring.application.name:},%X{traceId:-},%X{spanId:-}] "
+  include-application-name: false
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+  tracing:
+    sampling:
+      probability: 1.0
+  endpoints:
+    web:
+      exposure:
+        include: "*" # 暴露所有端口
+    enabled-by-default: true # 启用所有端口

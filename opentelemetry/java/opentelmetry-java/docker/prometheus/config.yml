@@ -1,0 +1,20 @@
+global:
+  scrape_interval:     15s
+  evaluation_interval: 15s
+
+scrape_configs:
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['127.0.0.1:9090']
+
+  - job_name: 'otel-collector'
+    scrape_interval: 2s
+    static_configs:
+      - targets: ['otel-collector:8888']
+
+  # spring boot actuator 指标暴露
+  - job_name: 'spring-boot-prometheus-exporter'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: [ '192.168.2.31:19999' ]
