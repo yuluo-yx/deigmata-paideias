@@ -1,0 +1,2036 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yuluo-yx @ alibaba 贡献报告</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #60a5fa;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .header p {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+    .cards {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .card .label {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .card .value {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 8px;
+      color: var(--accent);
+    }
+    .footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .section-title {
+      margin-top: 28px;
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--card);
+      border-radius: 12px;
+      padding: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(156, 163, 175, 0.2);
+      white-space: nowrap;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 600;
+    }
+    tr:last-child td {
+      border-bottom: 0;
+    }
+    .muted {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 8px;
+    }
+    .list-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .list-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .list-card h3 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+    .list-card ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-height: 420px;
+      overflow: auto;
+    }
+    .list-card li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(156, 163, 175, 0.2);
+      font-size: 14px;
+    }
+    .list-card li:last-child {
+      border-bottom: 0;
+    }
+    .item-title {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .item-title:hover {
+      text-decoration: underline;
+    }
+    .item-meta {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media (max-width: 700px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+      .list-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>yuluo-yx 在 alibaba 的贡献报告</h1>
+      <p>统计范围：公开仓 · 全部历史</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="label">创建 Issue</div>
+        <div class="value">84</div>
+      </div>
+      <div class="card">
+        <div class="label">未合并 PR</div>
+        <div class="value">50</div>
+      </div>
+      <div class="card">
+        <div class="label">合并 PR</div>
+        <div class="value">216</div>
+      </div>
+      <div class="card">
+        <div class="label">总贡献数</div>
+        <div class="value">350</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">按仓库贡献明细</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>仓库</th>
+            <th>创建 Issue</th>
+            <th>未合并 PR</th>
+            <th>合并 PR</th>
+            <th>总贡献</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            
+              <tr>
+                <td>alibaba/spring-cloud-alibaba</td>
+                <td>49</td>
+                <td>36</td>
+                <td>98</td>
+                <td>183</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/spring-ai-alibaba</td>
+                <td>25</td>
+                <td>13</td>
+                <td>118</td>
+                <td>156</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/nacos</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/Sentinel</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/easyexcel</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/fastjson</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/higress</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+            
+              <tr>
+                <td>alibaba/loongsuite-go-agent</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+            
+          
+        </tbody>
+      </table>
+    </div>
+    
+
+    <div class="list-grid">
+      <div class="list-card">
+        <h3>Issue 标题与链接</h3>
+        <ul>
+          
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/4263" target="_blank" rel="noopener noreferrer">Migrate to JSpecify annotations for nullability constraints</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/4290" target="_blank" rel="noopener noreferrer">[Question] README.md badge display error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/4253" target="_blank" rel="noopener noreferrer">community: write an upgrade guide from 2024 to 2025.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/4025" target="_blank" rel="noopener noreferrer">[Question] mvn icon display error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/3344" target="_blank" rel="noopener noreferrer">ReactAgent 获取 ReasoningContent 输出</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/3197" target="_blank" rel="noopener noreferrer">[BUG] ReactAgent memory doesn&#39;t seem to take effect</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/2946" target="_blank" rel="noopener noreferrer">[Question] {ETIHAD || AIRWAY} Comment parler à quelqu&#39;un chez Etihad ?</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/2417" target="_blank" rel="noopener noreferrer">optimize(memory0): use builder pattern optimze obejct field setting</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1726" target="_blank" rel="noopener noreferrer">[Example] 为 example playground 适配 dashscope api 支持的 websearch 功能。</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1725" target="_blank" rel="noopener noreferrer">[Example] 抽离 SAA 中百炼为一个单独的 example 模块</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1637" target="_blank" rel="noopener noreferrer">[Feature] add dashscope video gen support</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1580" target="_blank" rel="noopener noreferrer">[Feature] 集成 DashScope 翻译模型</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1578" target="_blank" rel="noopener noreferrer">[Task] Spring AI Alibaba Playground 效果优化与功能增强</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1574" target="_blank" rel="noopener noreferrer">[Task] spring ai alibaba playground Dockerfile 优化</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1573" target="_blank" rel="noopener noreferrer">[Feature] spring ai alibaba support grallvm</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1389" target="_blank" rel="noopener noreferrer">[Question] &lt;test&gt; this is a test issue.</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/1172" target="_blank" rel="noopener noreferrer">[BUG] 这是一个 bug 测试的 issue</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/970" target="_blank" rel="noopener noreferrer">Task: Add a label</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/786" target="_blank" rel="noopener noreferrer">Spring AI Alibaba Spring AI M7 &amp; M8 version iteration</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/loongsuite-go-agent/issues/307" target="_blank" rel="noopener noreferrer">install error: directly use the script of the github repository to install</a>
+                <div class="item-meta">alibaba/loongsuite-go-agent</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/371" target="_blank" rel="noopener noreferrer">Spring AI Alibaba Phase 2 Example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/299" target="_blank" rel="noopener noreferrer">Proposal: Spring AI Alibaba Example Planning</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/295" target="_blank" rel="noopener noreferrer">bug: Dashscope voice transcription test failed</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3893" target="_blank" rel="noopener noreferrer">Announcement: Document Migration Announcement</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3892" target="_blank" rel="noopener noreferrer">Announcement: AI project migration announcement</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/62" target="_blank" rel="noopener noreferrer">`converter.BeanOutputConverter`  occasional conversion failure problem</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/56" target="_blank" rel="noopener noreferrer">[Example] add `spring-ai-alibaba` call others llms example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/23" target="_blank" rel="noopener noreferrer">Bug: chat apikey set failed, but `spring.ai.dashscope.apikey` success</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/21" target="_blank" rel="noopener noreferrer">Bug：apikey read failed.</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/issues/13" target="_blank" rel="noopener noreferrer">Docs: spring ai alibaba get started params type is error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/easyexcel/issues/3977" target="_blank" rel="noopener noreferrer">error: easyexcel 和 common-upload 同时使用出现问题</a>
+                <div class="item-meta">alibaba/easyexcel</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3819" target="_blank" rel="noopener noreferrer">[Task] Convert the properties configuration file in example to yml type.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3816" target="_blank" rel="noopener noreferrer">Bug: rocketmq enabled not work</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3813" target="_blank" rel="noopener noreferrer">[chore] Checkstyle plugin configuration</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3812" target="_blank" rel="noopener noreferrer">[Community] Increased retirement mechanism for community-based positions</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3756" target="_blank" rel="noopener noreferrer">[Optimize] Optimizing autoconfiguration properties in seata</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3738" target="_blank" rel="noopener noreferrer">docs: Update the README document.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3716" target="_blank" rel="noopener noreferrer">docs: refactor roadmap.md</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3713" target="_blank" rel="noopener noreferrer">[AI]Refactoring Spring Cloud Alibaba AI apikey environment variables</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3707" target="_blank" rel="noopener noreferrer">bug[sentinel]: when use openfeign, sentinel consoleserverlist is null</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3704" target="_blank" rel="noopener noreferrer">bug[example]: sentinel example not registry sentinel console.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3703" target="_blank" rel="noopener noreferrer">[AI-Task]: Adapt TongYi LLM  speech transcription by Spring AI API.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3702" target="_blank" rel="noopener noreferrer">[AI-Task]: Adapt TongYi LLM Vector by Spring AI Embedding API.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3701" target="_blank" rel="noopener noreferrer">[AI-Task]: Adapt TongYi LLM Embedding by Spring AI Embedding API.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3679" target="_blank" rel="noopener noreferrer">bug: `spring.cloud.discovery.enabled` properties is invalid.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3672" target="_blank" rel="noopener noreferrer">ci: ci episodic anomalies</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/nacos/issues/11861" target="_blank" rel="noopener noreferrer">[Graalvm] Use `spring boot maven plugin` generation hints files appeared warning info.</a>
+                <div class="item-meta">alibaba/nacos</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3660" target="_blank" rel="noopener noreferrer">Example: Component graalvm compile test.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3622" target="_blank" rel="noopener noreferrer">Chore: Unified roadmap document</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3606" target="_blank" rel="noopener noreferrer">Feat [2023.x] : RocketMQ 5.1.x adaptation introduce.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3605" target="_blank" rel="noopener noreferrer">Feat [2023.x] : RocketMQ 5.1.x adaptation introduce.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3557" target="_blank" rel="noopener noreferrer">Feat: Add github action configuration to automatically manage projects</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3546" target="_blank" rel="noopener noreferrer">Bug: nacos related examples need to be updated,</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3525" target="_blank" rel="noopener noreferrer">Docs: Update nacos-example readme file.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/nacos/issues/11485" target="_blank" rel="noopener noreferrer">bug:  前端页面显示异常</a>
+                <div class="item-meta">alibaba/nacos</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3512" target="_blank" rel="noopener noreferrer">Bug: Run seata example failed in 2022.x!</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3502" target="_blank" rel="noopener noreferrer">Feat: SCA version release roadmap</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3491" target="_blank" rel="noopener noreferrer">Feat: Add github action to check markdown file error link</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3473" target="_blank" rel="noopener noreferrer">[Discussion]: Delete `spring-cloud-alibaba-docs` module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3375" target="_blank" rel="noopener noreferrer">[Bug] 2.2.x nacos-reactivediscovery-consumer-example run failed!</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/nacos/issues/10705" target="_blank" rel="noopener noreferrer">docker nacos-server:v2.2.1镜像启动失败！</a>
+                <div class="item-meta">alibaba/nacos</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3342" target="_blank" rel="noopener noreferrer">BUG: SCA 2021.x build failed</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3315" target="_blank" rel="noopener noreferrer">Nacos failed to pull shared configuration</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3285" target="_blank" rel="noopener noreferrer">Discussion: Whether to delete the spring cloud alibaba doc module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3284" target="_blank" rel="noopener noreferrer">Discussion: Disable the Endpoint node information in the spring cloud alibaba example module by default</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3257" target="_blank" rel="noopener noreferrer">spring-cloud-alibaba-sidecar-nacos-example test failed in 2022.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3255" target="_blank" rel="noopener noreferrer">The integrated-example  module test result is inconsistent with the expected result</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3252" target="_blank" rel="noopener noreferrer">nacos-reactivediscovery-consumer-example fails to invoke the nacos service</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3240" target="_blank" rel="noopener noreferrer">spring-cloud-stream-binder-rocketmq vulnerability reporting</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/Sentinel/issues/3062" target="_blank" rel="noopener noreferrer">Vulnerability report</a>
+                <div class="item-meta">alibaba/Sentinel</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/nacos/issues/10091" target="_blank" rel="noopener noreferrer">Vulnerability report</a>
+                <div class="item-meta">alibaba/nacos</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3205" target="_blank" rel="noopener noreferrer">SCA Class of ReactiveSentinelCircuitBreakerIntegrationTest CI/CD Failed</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3202" target="_blank" rel="noopener noreferrer">Add docker support in SCA example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/nacos/issues/10053" target="_blank" rel="noopener noreferrer">docker-compose 部署seata-server 并注册到nacos失败</a>
+                <div class="item-meta">alibaba/nacos</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3193" target="_blank" rel="noopener noreferrer">SCA 2022.0.0.0-RC2 local packaging failure</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/fastjson/issues/4353" target="_blank" rel="noopener noreferrer">com.alibaba.fastjson.JSONException: offset 1, character {, line 1, column 2, fastjson-version 2.0.24</a>
+                <div class="item-meta">alibaba/fastjson</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3164" target="_blank" rel="noopener noreferrer">Provide the docker-compose file in integration-example to create the run sample environment</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3132" target="_blank" rel="noopener noreferrer">Supplemental issues template</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3111" target="_blank" rel="noopener noreferrer">The seata service fails to start in the SCA example of the 2022.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/nacos/issues/9857" target="_blank" rel="noopener noreferrer">Nacos organized the exception throwing for some reason</a>
+                <div class="item-meta">alibaba/nacos</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3087" target="_blank" rel="noopener noreferrer">Spring boot version format in readme file</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3071" target="_blank" rel="noopener noreferrer">seate-example run failed</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3049" target="_blank" rel="noopener noreferrer">spring-cloud-bus-rocketmq-example Introduced duplicate dependencies</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/issues/3006" target="_blank" rel="noopener noreferrer">spring-cloud-bus-rocketmq-example has recurring dependencies</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba</div>
+              </li>
+            
+          
+        </ul>
+      </div>
+
+      <div class="list-card">
+        <h3>PR 标题与链接</h3>
+        <ul>
+          
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/4269" target="_blank" rel="noopener noreferrer">feat: JSpecify annotations for starters module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/4262" target="_blank" rel="noopener noreferrer">chore: update readme version to 2025.1.0.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/higress/pull/3466" target="_blank" rel="noopener noreferrer">chore: add project config file</a>
+                <div class="item-meta">alibaba/higress · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/4263" target="_blank" rel="noopener noreferrer">feat(admin): optimize saa admin deploy</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/4228" target="_blank" rel="noopener noreferrer">test(agent): fix test</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/4187" target="_blank" rel="noopener noreferrer">fix(agent): fix token usage is null bug</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/4071" target="_blank" rel="noopener noreferrer">feat: add CLAUDE.md</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/4046" target="_blank" rel="noopener noreferrer">docs(community): add new committer and update PMC info</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3976" target="_blank" rel="noopener noreferrer">chore: delete .github/workflows/check-chinese-content.yml</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3887" target="_blank" rel="noopener noreferrer">fix: fix ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3758" target="_blank" rel="noopener noreferrer">feat: add mutate api for ReactAgent</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3236" target="_blank" rel="noopener noreferrer">feat(graph): add builder for graph savere</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3187" target="_blank" rel="noopener noreferrer">fix: fix database id length error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3167" target="_blank" rel="noopener noreferrer">feat: add unit test for ReactAgent</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3127" target="_blank" rel="noopener noreferrer">feat: add ReactAgent tools check</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3079" target="_blank" rel="noopener noreferrer">feat: support jdbc checkpoint saver</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3077" target="_blank" rel="noopener noreferrer">chore: delete .github/workflows/issue-spam-filter.yml</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/3046" target="_blank" rel="noopener noreferrer">fix: Fixed the issue of the issue being abnormally closed.</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/2945" target="_blank" rel="noopener noreferrer">infra(ci): add issue filter</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/2649" target="_blank" rel="noopener noreferrer">fix(ci): delete jmanus GHA</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/2421" target="_blank" rel="noopener noreferrer">infra(docs): update dependency version and documentation links</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/2174" target="_blank" rel="noopener noreferrer">feat(core): when llm response chunk output is null, throw exception</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/2127" target="_blank" rel="noopener noreferrer">infra(ci): update licenes check config</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1998" target="_blank" rel="noopener noreferrer">feat(mcp): remove nacos2 mcp and mcp recovery</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1974" target="_blank" rel="noopener noreferrer">infra: add community label in pr title list</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1973" target="_blank" rel="noopener noreferrer">docs: add new committer VLSMB</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1824" target="_blank" rel="noopener noreferrer">feat(nl2sql): update nl2sql common db connector</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1792" target="_blank" rel="noopener noreferrer">feat(mcp): remove nacos 2 impl</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1770" target="_blank" rel="noopener noreferrer">feat(nl2sql): delete adb use saa adb starter</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1743" target="_blank" rel="noopener noreferrer">feat(nl2sql): add ConditionalOnADBEnabled annotation</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1741" target="_blank" rel="noopener noreferrer">feat(nl2sql): update code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1713" target="_blank" rel="noopener noreferrer">feat(core): add search_info params in metadata</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1712" target="_blank" rel="noopener noreferrer">fix(core): fix custom retryTemplate, use spring ai config</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1709" target="_blank" rel="noopener noreferrer">feat(core): update video api</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1683" target="_blank" rel="noopener noreferrer">fix(core): fix typo</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1662" target="_blank" rel="noopener noreferrer">feat(core): update chat api params and fix ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1659" target="_blank" rel="noopener noreferrer">feat(core): update image api</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1658" target="_blank" rel="noopener noreferrer">fix(core): fix ci error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1638" target="_blank" rel="noopener noreferrer">chore(jmanus): fix ci error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1636" target="_blank" rel="noopener noreferrer">feat(core): update image api params</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1635" target="_blank" rel="noopener noreferrer">feat(core): update dashscope chat api params</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1594" target="_blank" rel="noopener noreferrer">style(deepresearch): fix deepsearch yml style</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1588" target="_blank" rel="noopener noreferrer">feat(core): add graalvm native compile support</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1465" target="_blank" rel="noopener noreferrer">infra(ci): update issue-and-pr action version tag</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1406" target="_blank" rel="noopener noreferrer">infra(ci): update issue-and-pr action bot version</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1395" target="_blank" rel="noopener noreferrer">infra(ci): update action version</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1387" target="_blank" rel="noopener noreferrer">infra(ci): add issue and pr bot</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1354" target="_blank" rel="noopener noreferrer">feat(core): update audio api</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1318" target="_blank" rel="noopener noreferrer">infra(ci): use mvnd support</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1315" target="_blank" rel="noopener noreferrer">feat(core): add dashscope model options</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1210" target="_blank" rel="noopener noreferrer">docs: Add new committer</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1209" target="_blank" rel="noopener noreferrer">infra(ci): Update new-line-check.py</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1170" target="_blank" rel="noopener noreferrer">infra(ci): add issue create label.</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1119" target="_blank" rel="noopener noreferrer">fix(document-readers): close Arxiv UT in github ci environment</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1114" target="_blank" rel="noopener noreferrer">docs(core): update readme</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1060" target="_blank" rel="noopener noreferrer">ci: add mcp module pr labeler</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1053" target="_blank" rel="noopener noreferrer">test lint-pr ci bot</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1052" target="_blank" rel="noopener noreferrer">chore: update issue tmpl files</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1051" target="_blank" rel="noopener noreferrer">infra(ci]): add lint pr title ci bot</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1050" target="_blank" rel="noopener noreferrer">CI: Add Pull Request Labeler bot.</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1047" target="_blank" rel="noopener noreferrer">0530 yuluo/docs</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1032" target="_blank" rel="noopener noreferrer">[infra]: ci: add secret ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1031" target="_blank" rel="noopener noreferrer">[infra] ci: add secret check ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/966" target="_blank" rel="noopener noreferrer">fix: fix core ut error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/962" target="_blank" rel="noopener noreferrer">feat: refactor spring ai alibaba auto configur module</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/940" target="_blank" rel="noopener noreferrer">Preparing to release version 1.0.0.1</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/920" target="_blank" rel="noopener noreferrer">feat[rc]: update bom</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/909" target="_blank" rel="noopener noreferrer">feat: update pom struct</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/908" target="_blank" rel="noopener noreferrer">style: update code style</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/862" target="_blank" rel="noopener noreferrer">style: fix code style error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/813" target="_blank" rel="noopener noreferrer">ci: fix newline check ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/811" target="_blank" rel="noopener noreferrer">style: add newline check makefil target</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/810" target="_blank" rel="noopener noreferrer">style: update checkstyle pluign config and  add make target</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/789" target="_blank" rel="noopener noreferrer">feat: update spring ai version to 1.0.0-M8</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/773" target="_blank" rel="noopener noreferrer">feat: extract the mvn dependency version to the root directory</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/772" target="_blank" rel="noopener noreferrer">feat(infra): update pom</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/704" target="_blank" rel="noopener noreferrer">Revert &#34;Improve: Add youdao test&#34;</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/678" target="_blank" rel="noopener noreferrer">feat: optimize graph example code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/677" target="_blank" rel="noopener noreferrer">feat:t: optimize grpah example import</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/653" target="_blank" rel="noopener noreferrer">ci: ix the ci failure problem caused by #645 commit submission</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/642" target="_blank" rel="noopener noreferrer">feat: update vector-store</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/604" target="_blank" rel="noopener noreferrer">feat: update code style</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/602" target="_blank" rel="noopener noreferrer">chore: fix ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/600" target="_blank" rel="noopener noreferrer">chore: fix github ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/585" target="_blank" rel="noopener noreferrer">feat: update community tool utils</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/583" target="_blank" rel="noopener noreferrer">feat: add openmanus windows docs and update chrome driver</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/580" target="_blank" rel="noopener noreferrer">fix: fix tool call not auto config error</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/577" target="_blank" rel="noopener noreferrer">feat: optimize os chrome driver</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/548" target="_blank" rel="noopener noreferrer">fix: when spring ai alibaba startup, nacos print related logs</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/543" target="_blank" rel="noopener noreferrer">ci: fix and update ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/504" target="_blank" rel="noopener noreferrer">feat: add sqlite chat memory impl</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/502" target="_blank" rel="noopener noreferrer">feat: openmanus support input multiple plans</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/498" target="_blank" rel="noopener noreferrer">feat: spring-ai-alibaba-openmanus adaptor windows os &amp; update code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/489" target="_blank" rel="noopener noreferrer">ci: fix ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/482" target="_blank" rel="noopener noreferrer">chore: update dingTalk group number &amp; readme spring-ai-alibaba version to 1.0.0-M6.1</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/474" target="_blank" rel="noopener noreferrer">ci: update github ci and ci infra</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/454" target="_blank" rel="noopener noreferrer">ci: open github ci</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/411" target="_blank" rel="noopener noreferrer">feat: add deepseek reasoning content support and adjust some code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/404" target="_blank" rel="noopener noreferrer">test: add test for spring-ai-alibaba-autoconfigure</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/403" target="_blank" rel="noopener noreferrer">test: add spring-ai-alibaba-core-test</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/399" target="_blank" rel="noopener noreferrer">feat: optimize spring-ai-alibaba-core</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/397" target="_blank" rel="noopener noreferrer">feat: adjust autnconfiguration logic</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/396" target="_blank" rel="noopener noreferrer">feat: adjust autnconfiguration logic</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/359" target="_blank" rel="noopener noreferrer">feat: update DashScopeChatModel toolFunctionCallbacks auto configuration logic</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/353" target="_blank" rel="noopener noreferrer">fix: update the apikey name in the test to AI_DASHSCOPE_API_KEY</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/348" target="_blank" rel="noopener noreferrer">feat:add pdf tables parse</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/346" target="_blank" rel="noopener noreferrer">infra: add license check action</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/318" target="_blank" rel="noopener noreferrer">chore: Update pom.xml style</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/296" target="_blank" rel="noopener noreferrer">feat: adjust spring boot starter autoconfigure</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/194" target="_blank" rel="noopener noreferrer">communtiy: add @yuluo-yx as new committer</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/171" target="_blank" rel="noopener noreferrer">feat: add response_format params</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/146" target="_blank" rel="noopener noreferrer">fix: fixed the bug that the image model parameter was empty when set  in yaml</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/145" target="_blank" rel="noopener noreferrer">feat: add LLMs crawler plugin</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/124" target="_blank" rel="noopener noreferrer">[WIP] feat: spring ai alibaba chat memory implements</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3891" target="_blank" rel="noopener noreferrer">change(ai): remove ai module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/105" target="_blank" rel="noopener noreferrer">docs: update readme</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/90" target="_blank" rel="noopener noreferrer">feat: add stt examples</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/82" target="_blank" rel="noopener noreferrer">feat: add tts example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/80" target="_blank" rel="noopener noreferrer">feat: update multimodel example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/64" target="_blank" rel="noopener noreferrer">example: add multi model examples</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/44" target="_blank" rel="noopener noreferrer">feat: add spring-ai-alibaba-example to root pom.xml</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/43" target="_blank" rel="noopener noreferrer">feat: prepare release 1.0.0-M2.1</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/42" target="_blank" rel="noopener noreferrer">feat: update apikey constants name</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/40" target="_blank" rel="noopener noreferrer">feat: update image example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/35" target="_blank" rel="noopener noreferrer">OSPP: Completed Spring Cloud Alibaba&#39;s Spring AI model support for Tongyi series models</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/28" target="_blank" rel="noopener noreferrer">docs: Add minimum development environment requirements, jdk17</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/26" target="_blank" rel="noopener noreferrer">feat: support read apikey from system env</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/12" target="_blank" rel="noopener noreferrer">docs: update groupId</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/10" target="_blank" rel="noopener noreferrer">feat: add stream example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/8" target="_blank" rel="noopener noreferrer">fix: add maven repository config</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/6" target="_blank" rel="noopener noreferrer">feat: update ai example</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/5" target="_blank" rel="noopener noreferrer">chore: update some code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/4" target="_blank" rel="noopener noreferrer">chore: update code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/2" target="_blank" rel="noopener noreferrer">optimize: update ai example code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-ai-alibaba/pull/1" target="_blank" rel="noopener noreferrer">chore: update some code</a>
+                <div class="item-meta">alibaba/spring-ai-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3821" target="_blank" rel="noopener noreferrer">chore: convert properties config file type to yml type</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3811" target="_blank" rel="noopener noreferrer">[feat] remove spring-context-support dependecny</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3803" target="_blank" rel="noopener noreferrer">ai: add chat message context manager example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3800" target="_blank" rel="noopener noreferrer">feat: abstract chat message context store interface &amp; upgrade tongyi sdk version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3774" target="_blank" rel="noopener noreferrer">feat: update rag example and readme files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3769" target="_blank" rel="noopener noreferrer">feat: remove spring-ai dependency repository configuration from pom files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3768" target="_blank" rel="noopener noreferrer">feat: spring ai 1.0.0 m1 version adaptation</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3760" target="_blank" rel="noopener noreferrer">chore: deleting process files in ai example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3743" target="_blank" rel="noopener noreferrer">example: add rag application example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3742" target="_blank" rel="noopener noreferrer">example: add ai rag example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3741" target="_blank" rel="noopener noreferrer">fix: fix tongyi ai embedding ci</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3731" target="_blank" rel="noopener noreferrer">fix: fix llm client thread safety</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3724" target="_blank" rel="noopener noreferrer">fix: fix 2022.x ci</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3720" target="_blank" rel="noopener noreferrer">docs: update roadmap docs</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3717" target="_blank" rel="noopener noreferrer">roadmap: update roadmap docs</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3715" target="_blank" rel="noopener noreferrer">feat: update dashscope version to 2.14.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3714" target="_blank" rel="noopener noreferrer">feat: Set the api-key by means of an environment variable.</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3709" target="_blank" rel="noopener noreferrer">example: update sentinel example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3708" target="_blank" rel="noopener noreferrer">fix: fix sentinel applicaiton not reigtry sentinel console bug</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3706" target="_blank" rel="noopener noreferrer">fix: fix sentinel example not registry sentinel console &amp; udpate sent…</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3705" target="_blank" rel="noopener noreferrer">chore(ci): add pr reteset action</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3693" target="_blank" rel="noopener noreferrer">chore: add issue commands</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3692" target="_blank" rel="noopener noreferrer">chore: delete more file &amp; move pr tmpl to .github folder</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3685" target="_blank" rel="noopener noreferrer">feat: add TongYi speech models</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3678" target="_blank" rel="noopener noreferrer">feat: adapt spring-ai images api</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3676" target="_blank" rel="noopener noreferrer">fix: sentinel circuit breaker FeignClientCircuitBreakerRuleTests</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3673" target="_blank" rel="noopener noreferrer">feat: bump srping-ai to 0.8.1, tongyi sdk to 2.12.0 and adapt function call</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3669" target="_blank" rel="noopener noreferrer">example: add ai-example simple front pages and update ai-example code</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3659" target="_blank" rel="noopener noreferrer">[WIP] feat: Adapting the spring-ai to the TongYI model</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3655" target="_blank" rel="noopener noreferrer">feat: remove license check ci</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3653" target="_blank" rel="noopener noreferrer">chore: update gitignore</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3652" target="_blank" rel="noopener noreferrer">[Sync] optimize: update gitignore</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3650" target="_blank" rel="noopener noreferrer">feat: add codeql workflows</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3648" target="_blank" rel="noopener noreferrer">chore: Update the copyright year of all non-project code files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3646" target="_blank" rel="noopener noreferrer">chore: Update code file copyright header year</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3640" target="_blank" rel="noopener noreferrer">feat: update sentinel-example in 2022.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3635" target="_blank" rel="noopener noreferrer">feat: update sentinel example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3634" target="_blank" rel="noopener noreferrer">chore: add security.md files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3633" target="_blank" rel="noopener noreferrer">chore: move pr tmpl to .github folder</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3632" target="_blank" rel="noopener noreferrer">docs: update sca readme.md</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3625" target="_blank" rel="noopener noreferrer">feat: optimize sidecar-example and readme docs</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3586" target="_blank" rel="noopener noreferrer">feat: update github ci branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3584" target="_blank" rel="noopener noreferrer">feat: update seata version to 2.0.0 in 2023.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3583" target="_blank" rel="noopener noreferrer">feat: update nacos version to 2.3.0 in 2023.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3581" target="_blank" rel="noopener noreferrer">feat: add pr check action</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3580" target="_blank" rel="noopener noreferrer">feat: add license header 4 xml files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3577" target="_blank" rel="noopener noreferrer">feat: update license years</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3569" target="_blank" rel="noopener noreferrer">feat: add license header for xml files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3568" target="_blank" rel="noopener noreferrer">feat: add license header for conf config file</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3567" target="_blank" rel="noopener noreferrer">feat: add license header for js</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3566" target="_blank" rel="noopener noreferrer">feat: add license header for Dockerfile</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3565" target="_blank" rel="noopener noreferrer">feat: add license header for properties config files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3564" target="_blank" rel="noopener noreferrer">feat: add license header for sql scripts files</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3560" target="_blank" rel="noopener noreferrer">feat: add license header for yaml and yml file</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3558" target="_blank" rel="noopener noreferrer">1224/yuluo feat add GitHub action</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3556" target="_blank" rel="noopener noreferrer">chore: update readme, add github action badge.svg icon</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3555" target="_blank" rel="noopener noreferrer">Docs: remove docs module in 2021.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3554" target="_blank" rel="noopener noreferrer">docs: removed docs module in 2.2.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3550" target="_blank" rel="noopener noreferrer">feat: adapt nacos 2.x auth and update nacos example docs</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3549" target="_blank" rel="noopener noreferrer">feat: adapt nacos 2.2.x auth and update nacos example docs  in 2021.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3548" target="_blank" rel="noopener noreferrer">feat: add nacos server open api auth doc</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3547" target="_blank" rel="noopener noreferrer">fix: update nacos-example readme error link</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3543" target="_blank" rel="noopener noreferrer">feat: add dependbot to management github action depend version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3542" target="_blank" rel="noopener noreferrer">feat: add issue-template config.yml</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3541" target="_blank" rel="noopener noreferrer">fix: update integrated-consumer-yaml configuration</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3537" target="_blank" rel="noopener noreferrer">docs: update sca nacos-example readme file</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3527" target="_blank" rel="noopener noreferrer">feat: adapte 1.8.0 version in sca-2022.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3526" target="_blank" rel="noopener noreferrer">feat: update spring cloud and spring boot</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3520" target="_blank" rel="noopener noreferrer">feat: adapte seata 1.8.0 in sca 2022.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3519" target="_blank" rel="noopener noreferrer">1207/yuluo feat adapte seata 1.8</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3513" target="_blank" rel="noopener noreferrer">feat: update seata-server version to 1.8.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3509" target="_blank" rel="noopener noreferrer">Feat: update nacos version to 2.2.3</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3492" target="_blank" rel="noopener noreferrer">Feat: add github workfolw to check markdown file error link</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3490" target="_blank" rel="noopener noreferrer">Docs: deleted spring-cloud-alibaba-docs module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3449" target="_blank" rel="noopener noreferrer">[WIP] [OSPP] [2.2.x] feat: Add regional affinity routing and adapt clients and gateways</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3447" target="_blank" rel="noopener noreferrer">[WIP] [OSPP] [2.2.x] Add area affinity routing and adapt clients and gateways in label routing module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3446" target="_blank" rel="noopener noreferrer">[WIP] [OSPP] [2.2.x] feat: Add regional affinity routing and adapt clients and gateways</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3382" target="_blank" rel="noopener noreferrer">[WIP] [OSPP] [2.2.x] Adapt to all client types and common gateways for the label routing module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3378" target="_blank" rel="noopener noreferrer">update seata version to 1.7.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3376" target="_blank" rel="noopener noreferrer">fix nacos-reactive-discovery-example run failed</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3349" target="_blank" rel="noopener noreferrer">Doc: update relevant docs per #3284</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3341" target="_blank" rel="noopener noreferrer">update nacos-discovery doc in 2022.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3340" target="_blank" rel="noopener noreferrer">update nacos-discovery doc</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3336" target="_blank" rel="noopener noreferrer">Doc: update integrated-example doc in 2021.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3335" target="_blank" rel="noopener noreferrer">Doc: update integrated-example doc in 2.2.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3331" target="_blank" rel="noopener noreferrer">Doc: update naocs-example document</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3330" target="_blank" rel="noopener noreferrer">Doc: update integrated-example document</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3309" target="_blank" rel="noopener noreferrer">Doc: update integrated-example doc</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3296" target="_blank" rel="noopener noreferrer">Doc: fix sidecar doc</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3280" target="_blank" rel="noopener noreferrer">Update the execution time of the action</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3274" target="_blank" rel="noopener noreferrer">update stale rebot</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3272" target="_blank" rel="noopener noreferrer">update codecov url</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3267" target="_blank" rel="noopener noreferrer">Fix: sidecar-example in 2022.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3266" target="_blank" rel="noopener noreferrer">Fix sidecar example in 2021.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3254" target="_blank" rel="noopener noreferrer">fixed the issue that webClient could not call the nacos service</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3253" target="_blank" rel="noopener noreferrer">Doc: fix nacos-example doc</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3229" target="_blank" rel="noopener noreferrer">update maven version to 3.9.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3228" target="_blank" rel="noopener noreferrer">update maven version to 3.9.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3227" target="_blank" rel="noopener noreferrer">update maven version to 3.9.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3225" target="_blank" rel="noopener noreferrer">update maven version to 3.9.0</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3216" target="_blank" rel="noopener noreferrer">fix doc wrong</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3209" target="_blank" rel="noopener noreferrer">add docker support for integreated-example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3208" target="_blank" rel="noopener noreferrer">add docker support for integrated-example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3206" target="_blank" rel="noopener noreferrer">update doc and update component version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3204" target="_blank" rel="noopener noreferrer">update doc wrong and add docker support for in integrated-example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3182" target="_blank" rel="noopener noreferrer">add maven spring-boot plugin</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3167" target="_blank" rel="noopener noreferrer">Add docker-compose file simplify the configuration of examples</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3150" target="_blank" rel="noopener noreferrer">Apply stale rebot</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3146" target="_blank" rel="noopener noreferrer">update copyright years in 2.2.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3140" target="_blank" rel="noopener noreferrer">add WebClient example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3139" target="_blank" rel="noopener noreferrer">Web client example</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3126" target="_blank" rel="noopener noreferrer">update copyright in 2021.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3125" target="_blank" rel="noopener noreferrer">update copyright in 2022.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3107" target="_blank" rel="noopener noreferrer">Optimize the Appactive module</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3105" target="_blank" rel="noopener noreferrer">Optimize Appactive dependency version management</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3100" target="_blank" rel="noopener noreferrer">Updated yml format in 2.2.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3099" target="_blank" rel="noopener noreferrer">Updated yml format in 2021.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3098" target="_blank" rel="noopener noreferrer">Updated yml format in 2022.x branch</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3095" target="_blank" rel="noopener noreferrer">Use methods inside Objects to override &#39;Obj == null&#39; and &#39;Obj != null&#39; and &#39;obj == obj&#39;</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3090" target="_blank" rel="noopener noreferrer">merge local</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3088" target="_blank" rel="noopener noreferrer">Update README.md</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3070" target="_blank" rel="noopener noreferrer">update seata version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3069" target="_blank" rel="noopener noreferrer">update nacos version in 2021.x</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3059" target="_blank" rel="noopener noreferrer">update spring-boot version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3055" target="_blank" rel="noopener noreferrer">update dependencies version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3050" target="_blank" rel="noopener noreferrer">remove duplicate dependencies</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3048" target="_blank" rel="noopener noreferrer">update spring-boot version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3046" target="_blank" rel="noopener noreferrer">update nacos and spring-boot version</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/3008" target="_blank" rel="noopener noreferrer">Remove duplicate dependencies</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/2831" target="_blank" rel="noopener noreferrer">fix miss bootstrap dependcy</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Merged</div>
+              </li>
+            
+              <li>
+                <a class="item-title" href="https://github.com/alibaba/spring-cloud-alibaba/pull/2830" target="_blank" rel="noopener noreferrer">alibaba#2827</a>
+                <div class="item-meta">alibaba/spring-cloud-alibaba · Not Merged</div>
+              </li>
+            
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>Generated At: 2026-03-12 21:58:44 CST</div>
+      <div>Rate Limit: 9 / 10</div>
+      <div>Rate Reset: 2026-03-12 21:59:30 &#43;0800 CST</div>
+    </div>
+  </div>
+</body>
+</html>
