@@ -1,0 +1,14 @@
+host: ""
+port: 8317
+remote-management:
+  allow-remote: true
+  secret-key: ""
+  disable-control-panel: true
+auth-dir: /root/.cli-proxy-api
+api-keys: []
+proxy-url: "http://host.docker.internal:7897"
+usage-statistics-enabled: true
+redis-usage-queue-retention-seconds: 300
+logging-to-file: false
+request-retry: 3
+ws-auth: true

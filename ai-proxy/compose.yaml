@@ -1,0 +1,88 @@
+name: ai-proxy
+
+services:
+  cli-proxy-api:
+    image: ${CPA_IMAGE:?Set CPA_IMAGE in .env}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8317:8317"
+      - "127.0.0.1:8085:8085"
+      - "127.0.0.1:1455:1455"
+      - "127.0.0.1:54545:54545"
+      - "127.0.0.1:51121:51121"
+      - "127.0.0.1:11451:11451"
+    environment:
+      TZ: Asia/Shanghai
+      HTTP_PROXY: http://host.docker.internal:7897
+      HTTPS_PROXY: http://host.docker.internal:7897
+      NO_PROXY: localhost,127.0.0.1,cli-proxy-api,cpa-manager-plus,new-api
+    volumes:
+      - ./cpa/config.yaml:/CLIProxyAPI/config.yaml
+      - ./data/cpa/auths:/root/.cli-proxy-api
+      - ./data/cpa/logs:/CLIProxyAPI/logs
+      - ./data/cpa/plugins:/CLIProxyAPI/plugins
+    healthcheck:
+      test:
+        - CMD
+        - bash
+        - -ec
+        - >-
+          exec 3<>/dev/tcp/127.0.0.1/8317;
+          printf 'GET / HTTP/1.0\r\nHost: localhost\r\n\r\n' >&3;
+          IFS= read -r status <&3;
+          [[ "$$status" == *" 200 "* ]]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+
+  cpa-manager-plus:
+    image: ${CPAMP_IMAGE:?Set CPAMP_IMAGE in .env}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18317:18317"
+    environment:
+      TZ: Asia/Shanghai
+      HTTP_ADDR: "0.0.0.0:18317"
+      USAGE_DB_PATH: /data/usage.sqlite
+      CPA_MANAGER_DATA_KEY_PATH: /data/data.key
+      CPA_MANAGER_ADMIN_KEY: ${CPA_MANAGER_ADMIN_KEY:?Set CPA_MANAGER_ADMIN_KEY in .env}
+      CPA_UPSTREAM_URL: http://cli-proxy-api:8317
+      CPA_MANAGEMENT_KEY: ${CPA_MANAGEMENT_KEY:?Set CPA_MANAGEMENT_KEY in .env}
+      USAGE_COLLECTOR_MODE: http
+      USAGE_POLL_INTERVAL_MS: "500"
+      HTTP_PROXY: http://host.docker.internal:7897
+      HTTPS_PROXY: http://host.docker.internal:7897
+      NO_PROXY: localhost,127.0.0.1,cli-proxy-api,cpa-manager-plus,new-api
+    volumes:
+      - ./data/cpa-manager-plus:/data
+    depends_on:
+      cli-proxy-api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:18317/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+
+  new-api:
+    image: ${NEW_API_IMAGE:?Set NEW_API_IMAGE in .env}
+    restart: unless-stopped
+    command: ["--log-dir", "/app/logs"]
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      TZ: Asia/Shanghai
+      SESSION_SECRET: ${NEW_API_SESSION_SECRET:?Set NEW_API_SESSION_SECRET in .env}
+      ERROR_LOG_ENABLED: "true"
+      NODE_NAME: new-api-local
+    volumes:
+      - ./data/new-api:/data
+      - ./data/new-api-logs:/app/logs
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000/api/status | grep -Eq '\"success\"[[:space:]]*:[[:space:]]*true'"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s

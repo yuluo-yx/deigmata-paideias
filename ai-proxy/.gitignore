@@ -1,0 +1,8 @@
+.env
+cpa/config.yaml
+data/
+backups/
+.DS_Store
+.publish/
+maintenance/
+__pycache__/
